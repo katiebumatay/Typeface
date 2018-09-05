@@ -1,0 +1,875 @@
+body {
+	min-width: 1000px;
+}
+
+div {
+	display: block;
+}
+
+/*.container {
+  	overflow-x: auto;
+  	white-space: nowrap;
+  	height: 100%;
+}*/
+
+.letter {
+	display: inline-block;
+	position: relative;
+	box-sizing: content-box;
+	margin: 100px 50px 100px 50px;
+	height: 300px;
+	width: 300px;
+/*	background-color: gray;*/
+	float: left;
+/*	overflow-y: hidden;
+	overflow-x: hidden;*/
+}
+
+.vbar {
+	position: absolute; /**can overlap**/
+	background: black;
+	width: 10%;
+	height: 100%;
+	top:0%;
+	left:0%;
+}
+
+.hbar {
+	position: absolute; /**can overlap**/
+	background: black;
+	width: 100%;
+	height: 10%;
+	top:0%;
+	left:0%;
+}
+
+#length8 {height: 80%;}
+
+#length7 {height: 70%;}
+
+#length6 {height: 60%;}
+
+#length5 {height: 50%;}
+
+#length4 {height: 40%;}
+
+#length3 {height: 30%;}
+
+#length2 {height: 20%;}
+
+#length1 {height: 10%;}
+
+
+#width8 {width: 80%;}
+
+#width7 {width: 70%;}
+
+#width6 {width: 60%;}
+
+#width5 {width: 50%;}
+
+#width4 {width: 40%;}
+
+#width3 {width: 30%;}
+
+#width2 {width: 20%;}
+
+#width1 {width: 10%;}
+
+/******* A ******/
+#a div.vbar:nth-child(1) {
+	top: 50%;
+	left: 10%;
+}
+
+#a div.vbar:nth-child(2) {
+	top: 50%;
+	left: 70%;
+}
+
+#a div.vbar:nth-child(3) {
+	top: 20%;
+	left: 20%;
+}
+
+#a div.vbar:nth-child(4) {
+	top: 20%;
+	left: 60%;
+}
+
+#a div.vbar:nth-child(5) {
+	top: 0%;
+	left: 40%;
+}
+
+#a div.hbar:nth-child(6) {
+	top: 50%;
+	left: 30%;
+
+}
+
+/******* B ******/
+#b div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#b div.vbar:nth-child(2) {
+	top: 10%;
+	left: 70%;
+}
+
+#b div.vbar:nth-child(3) {
+	top: 50%;
+	left: 70%;
+}
+
+#b div.hbar:nth-child(4) {
+	top: 0%;
+	left: 30%;
+}
+
+#b div.hbar:nth-child(5) {
+	top: 40%;
+	left: 40%;
+}
+
+#b div.hbar:nth-child(6) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* C ******/
+#c div.vbar:nth-child(1) {
+	top: 20%;
+	left: 10%;
+}
+
+#c div.hbar:nth-child(2) {
+	top: 0%;
+	left: 30%;
+}
+
+#c div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+
+/******* D ******/
+#d div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#d div.vbar:nth-child(2) {
+	top: 20%;
+	left: 70%;
+}
+
+#d div.hbar:nth-child(3) {
+	top: 0%;
+	left: 30%;
+}
+
+#d div.hbar:nth-child(4) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* E ******/
+#e div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#e div.hbar:nth-child(2) {
+	top: 0%;
+	left: 40%;
+}
+
+#e div.hbar:nth-child(3) {
+	top: 40%;
+	left: 40%;
+}
+
+#e div.hbar:nth-child(4) {
+	top: 90%;
+	left: 40%;
+}
+
+/******* F ******/
+#f div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#f div.hbar:nth-child(2) {
+	top: 0%;
+	left: 40%;
+}
+
+#f div.hbar:nth-child(3) {
+	top: 40%;
+	left: 40%;
+}
+
+/******* G ******/
+#g div.vbar:nth-child(1) {
+	top: 20%;
+	left: 10%;
+}
+
+#g div.hbar:nth-child(2) {
+	top: 0%;
+	left: 30%;
+}
+
+#g div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+#g div.hbar:nth-child(4) {
+	top: 50%;
+	left: 50%;
+}
+
+#g div.hbar:nth-child(5) {
+	top: 60%;
+	left: 70%;
+}
+
+/******* H ******/
+#h div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#h div.vbar:nth-child(2) {
+	top: 0%;
+	left: 70%;
+}
+
+#h div.hbar:nth-child(3) {
+	top: 40%;
+	left: 30%;
+}
+
+/******* I ******/
+#i div.vbar:nth-child(1) {
+	top: 20%;
+	left: 40%;
+}
+
+#i div.hbar:nth-child(2) {
+	top: 0%;
+	left: 30%;
+}
+
+#i div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* J ******/
+#j div.vbar:nth-child(1) {
+	top: 20%;
+	left: 60%;
+}
+
+#j div.hbar:nth-child(2) {
+	top: 0%;
+	left: 40%;
+}
+
+#j div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+#j div.hbar:nth-child(4) {
+	top: 70%;
+	left: 20%;
+}
+
+/******* K ******/
+#k div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#k div.vbar:nth-child(2) {
+	top: 30%;
+	left: 40%;
+}
+
+#k div.vbar:nth-child(3) {
+	top: 0%;
+	left: 70%;
+}
+
+#k div.vbar:nth-child(4) {
+	top: 60%;
+	left: 70%;
+}
+
+/******* L ******/
+#l div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#l div.hbar:nth-child(2) {
+	top: 90%;
+	left: 40%;
+}
+
+/******* M ******/
+#m div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#m div.vbar:nth-child(2) {
+	top: 10%;
+	left: 30%;
+}
+
+#m div.vbar:nth-child(3) {
+	top: 10%;
+	left: 60%;
+}
+
+#m div.vbar:nth-child(4) {
+	top: 0%;
+	left: 80%;
+}
+
+/******* N ******/
+#n div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#n div.vbar:nth-child(2) {
+	top: 10%;
+	left: 30%;
+}
+
+#n div.vbar:nth-child(3) {
+	top: 60%;
+	left: 60%;
+}
+
+#n div.vbar:nth-child(4) {
+	top: 0%;
+	left: 80%;
+}
+
+/******* O ******/
+#o div.vbar:nth-child(1) {
+	top: 20%;
+	left: 10%;
+}
+
+#o div.hbar:nth-child(2) {
+	top: 0%;
+	left: 30%;
+}
+
+#o div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+#o div.vbar:nth-child(4) {
+	top: 20%;
+	left: 80%;
+}
+
+/******* P ******/
+#p div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#p div.vbar:nth-child(2) {
+	top: 20%;
+	left: 70%;
+}
+
+
+#p div.hbar:nth-child(3) {
+	top: 0%;
+	left: 30%;
+}
+
+#p div.hbar:nth-child(4) {
+	top: 50%;
+	left: 30%;
+}
+
+/******* Q ******/
+#q div.vbar:nth-child(1) {
+	top: 20%;
+	left: 10%;
+}
+
+#q div.hbar:nth-child(2) {
+	top: 0%;
+	left: 30%;
+}
+
+#q div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+#q div.vbar:nth-child(4) {
+	top: 20%;
+	left: 80%;
+}
+
+#q div.vbar:nth-child(5) {
+	top: 100%;
+	left: 60%;
+}
+
+/******* R ******/
+#r div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#r div.vbar:nth-child(2) {
+	top: 10%;
+	left: 70%;
+}
+
+#r div.vbar:nth-child(3) {
+	top: 60%;
+	left: 70%;
+}
+
+#r div.hbar:nth-child(4) {
+	top: 0%;
+	left: 30%;
+}
+
+#r div.hbar:nth-child(5) {
+	top: 45%;
+	left: 40%;
+}
+
+/******* S ******/
+#s div.hbar:nth-child(1) {
+	top: 0%;
+	left: 40%;
+}
+
+#s div.vbar:nth-child(2) {
+	top: 10%;
+	left: 20%;
+}
+
+#s div.vbar:nth-child(3) {
+	top: 40%;
+	left: 50%;
+}
+
+#s div.vbar:nth-child(4) {
+	top: 60%;
+	left: 70%;
+}
+
+#s div.hbar:nth-child(5) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* T ******/
+#t div.vbar:nth-child(1) {
+	top: 0%;
+	left: 40%;
+}
+
+#t div.hbar:nth-child(2) {
+	top: 0%;
+	left: 10%;
+}
+
+#t div.hbar:nth-child(3) {
+	top: 0%;
+	left: 60%;
+}
+
+/******* U ******/
+#u div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#u div.vbar:nth-child(2) {
+	top:0%;
+	left: 70%;
+}
+
+#u div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* V ******/
+#v div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#v div.vbar:nth-child(2) {
+	top: 0%;
+	left: 70%;
+}
+
+#v div.vbar:nth-child(3) {
+	top: 60%;
+	left: 20%;
+}
+
+#v div.vbar:nth-child(4) {
+	top: 60%;
+	left: 60%;
+}
+
+#v div.vbar:nth-child(5) {
+	top: 90%;
+	left: 40%;
+}
+
+/******* W ******/
+#w div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#w div.vbar:nth-child(2) {
+	top: 60%;
+	left: 30%;
+}
+
+#w div.vbar:nth-child(3) {
+	top: 60%;
+	left: 60%;
+}
+
+#w div.vbar:nth-child(4) {
+	top: 0%;
+	left: 80%;
+}
+
+/******* X ******/
+#x div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#x div.vbar:nth-child(2) {
+	top: 0%;
+	left: 70%;
+}
+
+#x div.vbar:nth-child(3) {
+	top: 40%;
+	left: 40%;
+}
+
+#x div.vbar:nth-child(4) {
+	top: 60%;
+	left: 70%;
+}
+
+#x div.vbar:nth-child(5) {
+	top: 60%;
+	left: 10%;
+}
+
+/******* Y ******/
+#y div.vbar:nth-child(1) {
+	top: 0%;
+	left: 10%;
+}
+
+#y div.vbar:nth-child(2) {
+	top: 0%;
+	left: 70%;
+}
+
+#y div.vbar:nth-child(3) {
+	top: 50%;
+	left: 40%;
+}
+
+/******* Z ******/
+#z div.hbar:nth-child(1) {
+	top: 0%;
+	left: 20%;
+}
+
+#z div.hbar:nth-child(2) {
+	top: 30%;
+	left: 50%;
+}
+
+#z div.hbar:nth-child(3) {
+	top: 60%;
+	left: 30%;
+}
+
+#z div.hbar:nth-child(4) {
+	top: 90%;
+	left: 20%;
+}
+
+/******* zero ******/
+#zero div.vbar:nth-child(1) {
+	top: 20%;
+	left: 10%;
+}
+
+#zero div.hbar:nth-child(2) {
+	top: 0%;
+	left: 30%;
+}
+
+#zero div.hbar:nth-child(3) {
+	top: 90%;
+	left: 30%;
+}
+
+#zero div.vbar:nth-child(4) {
+	top: 20%;
+	left: 80%;
+}
+
+#zero div.hbar:nth-child(5) {
+	top: 30%;
+	left: 50%;
+}
+
+#zero div.hbar:nth-child(6) {
+	top: 60%;
+	left: 30%;
+}
+
+/******* one ******/
+#one div.vbar:nth-child(1) {
+	top: 0%;
+	left: 40%;
+}
+
+#one div.hbar:nth-child(2) {
+	top: 10%;
+	left: 20%;
+}
+
+#one div.hbar:nth-child(3) {
+	top: 90%;
+	left: 20%;
+}
+
+/******* two ******/
+#two div.hbar:nth-child(1) {
+	top: 0%;
+	left: 20%;
+}
+
+#two div.vbar:nth-child(2) {
+	top: 10%;
+	left: 70%;
+}
+
+#two div.hbar:nth-child(3) {
+	top: 60%;
+	left: 30%;
+}
+
+#two div.hbar:nth-child(4) {
+	top: 90%;
+	left: 20%;
+}
+
+/******* three ******/
+#three div.vbar:nth-child(1) {
+	top: 10%;
+	left: 60%;
+}
+
+#three div.vbar:nth-child(2) {
+	top: 50%;
+	left: 60%;
+}
+
+#three div.hbar:nth-child(3) {
+	top: 0%;
+	left: 20%;
+}
+
+#three div.hbar:nth-child(4) {
+	top: 40%;
+	left: 30%;
+}
+
+#three div.hbar:nth-child(5) {
+	top: 90%;
+	left: 20%;
+}
+
+/******* four ******/
+#four div.vbar:nth-child(1) {
+	top: 0%;
+	left: 20%;
+}
+
+#four div.vbar:nth-child(2) {
+	top: 0%;
+	left: 70%;
+}
+
+#four div.hbar:nth-child(3) {
+	top: 40%;
+	left: 20%;
+}
+
+/******* five ******/
+#five div.vbar:nth-child(1) {
+	top: 0%;
+	left: 20%;
+}
+
+#five div.vbar:nth-child(2) {
+	top: 60%;
+	left: 70%;
+}
+
+#five div.hbar:nth-child(3) {
+	top: 0%;
+	left: 40%;
+}
+
+#five div.hbar:nth-child(4) {
+	top: 40%;
+	left: 40%;
+}
+
+#five div.hbar:nth-child(5) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* six ******/
+#six div.vbar:nth-child(1) {
+	top: 10%;
+	left: 20%;
+}
+
+#six div.vbar:nth-child(2) {
+	top: 60%;
+	left: 70%;
+}
+
+#six div.hbar:nth-child(3) {
+	top: 0%;
+	left: 40%;
+}
+
+#six div.hbar:nth-child(4) {
+	top: 40%;
+	left: 40%;
+}
+
+#six div.hbar:nth-child(5) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* seven ******/
+#seven div.hbar:nth-child(1) {
+	top: 0%;
+	left: 20%;
+}
+
+#seven div.hbar:nth-child(2) {
+	top: 30%;
+	left: 50%;
+}
+
+#seven div.hbar:nth-child(3) {
+	top: 60%;
+	left: 30%;
+}
+
+#seven div.vbar:nth-child(4) {
+	top: 80%;
+	left: 20%;
+}
+
+/******* eight ******/
+#eight div.vbar:nth-child(1) {
+	top: 10%;
+	left: 70%;
+}
+
+#eight div.vbar:nth-child(2) {
+	top: 10%;
+	left: 10%;
+}
+
+#eight div.vbar:nth-child(3) {
+	top: 60%;
+	left: 70%;
+}
+
+#eight div.vbar:nth-child(4) {
+	top: 60%;
+	left: 10%;
+}
+
+#eight div.hbar:nth-child(5) {
+	top: 0%;
+	left: 30%;
+}
+
+#eight div.hbar:nth-child(6) {
+	top: 40%;
+	left: 40%;
+}
+
+#eight div.hbar:nth-child(7) {
+	top: 90%;
+	left: 30%;
+}
+
+/******* nine ******/
+#nine div.vbar:nth-child(1) {
+	top: 10%;
+	left: 20%;
+}
+
+#nine div.vbar:nth-child(2) {
+	top: 20%;
+	left: 70%;
+}
+
+#nine div.hbar:nth-child(3) {
+	top: 0%;
+	left: 40%;
+}
+
+#nine div.hbar:nth-child(4) {
+	top: 50%;
+	left: 40%;
+}
+
+#nine div.hbar:nth-child(5) {
+	top: 90%;
+	left: 30%;
+}
