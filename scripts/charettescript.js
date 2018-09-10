@@ -1,20 +1,20 @@
 console.log("hello");
 
 
-// make opaque
+// hover over bar makes disappear
 $(document).ready(function(){
 
-$('.hbar, .vbar').mouseover(function(){
+$('#two1 .hbar, #two1 .vbar').mouseover(function(){
 	
-	$(".two").animate({
-	opacity:".2",
+	$("#two1").animate({
+	opacity:"0",
 	}, 200);
 
 });
 
-$('.hbar, .vbar').mouseout(function(){
+$('#two1 .hbar, #two1 .vbar').mouseout(function(){
 	
-	$(".two").animate({
+	$("#two1").animate({
 	opacity:"1",
 	}, 200);
 
