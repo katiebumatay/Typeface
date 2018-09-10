@@ -188,4 +188,15 @@ $(document).ready(function(){
     });
 });
 
+// any bar changes to fill box
+$(document).ready(function(){
+	$('#two13 .hbar, #two13 .vbar').click(function(){
+		$(this).animate({
+		width: "100%",
+		height: "100%",
+		left: "0",
+		top: "0",
+		}, 1000);
+	});
+});
 
