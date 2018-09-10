@@ -337,7 +337,7 @@ $(document).ready(function(){
 //clicked one flashes
 $(document).ready(function(){
 
-	$('#two28').click('click touchstart', function(){
+	$('#two28').click(function(){
 		$(this).animate({opacity:"0",}, 200);
 		$(this).animate({opacity:"1",}, 200);
 		$(this).animate({opacity:"0",}, 200);
@@ -356,10 +356,20 @@ $(document).ready(function(){
 
 //click to condense up
 $(document).ready(function() {
-	$('#two29').click('click touchstart', function() {
-		$(this).animate({height: '0px'}, 1000);
-		$(this).animate({height: '300px'}, 800);
+	$('#two29').click(function() {
+		$(this).animate({height: '0px'}, 500);
+		$(this).animate({height: '600px'}, 800);
+		$(this).animate({height: '300px'}, 500);
 
+	});
+
+});
+
+
+//click to move each bar to the left
+$(document).ready(function() {
+	$('#two30 .hbar, #two30 .vbar').click(function() {
+		$(this).animate({left: '0'}, 1000);
 	});
 
 });
