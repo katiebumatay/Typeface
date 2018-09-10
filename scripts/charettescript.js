@@ -208,3 +208,32 @@ $(document).ready(function(){
     });
 });
 
+// hover to invert
+$(document).ready(function(){
+	 $('#two15').mouseover(function(){
+        $('body').css("background-color", "black");
+        $('.hbar, .vbar').css("background-color", "white");
+    });
+
+	$('#two15').mouseout(function(){
+        $('body').css("background-color", "white");
+        $('.hbar, .vbar').css("background-color", "black");
+    });
+});
+
+// hover make all others transparent
+$(document).ready(function(){
+	$('#two16').mouseover(function(){
+		$(".two").not('#two16').animate({
+		opacity:"0",
+		}, 2000);
+	});
+	$('#two16').mouseout(function(){
+		$(".two").not('#two16').animate({
+		opacity:"1",
+		}, 2000);
+	});
+
+});
+
+
