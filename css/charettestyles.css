@@ -93,10 +93,8 @@ div {
 	background-color: red;
 }
 
-.spin {
-	-ms-transform: rotate(360deg); /* IE 9 */
-    -webkit-transform: rotate(360deg); /* Safari */
-    transform: rotate(360deg);
+.spinner {
+	transform: rotate(360deg);
 }
 
 .rotate90 {

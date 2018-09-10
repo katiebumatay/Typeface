@@ -425,3 +425,10 @@ $(document).ready(function() {
 		$('#two36 .hbar, #two36 .vbar').toggleClass("red");
 	});
 });
+
+//click to toggle change color
+$(document).ready(function() {
+	$('#two37').click(function() {
+		$('#two37 .hbar, #two37 .vbar').toggleClass("rotate90");
+	});
+});
