@@ -237,3 +237,20 @@ $(document).ready(function(){
 });
 
 
+// lengthen each bar that's clicked on
+$(document).ready(function(){
+
+	$('#two17 .hbar').click(function(){
+		$(this).animate({
+		width: "100vw",
+		}, 1000);
+	});
+
+	$('#two17 .vbar').click(function(){
+		$(this).animate({
+		height: "100vh",
+		}, 200);
+	});
+
+});
+
