@@ -426,9 +426,18 @@ $(document).ready(function() {
 	});
 });
 
-//click to toggle change color
+//click to toggle 90deg rotation of bars
 $(document).ready(function() {
 	$('#two37').click(function() {
 		$('#two37 .hbar, #two37 .vbar').toggleClass("rotate90");
 	});
 });
+
+//click to toggle 90deg rotation of form
+$(document).ready(function() {
+	$('#two38').click(function() {
+		$(this).toggleClass("rotate90");
+	});
+});
+
+
