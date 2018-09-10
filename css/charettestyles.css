@@ -93,11 +93,14 @@ div {
 	background-color: red;
 }
 
-.spinner {
-	transform: rotate(360deg);
+.spinning {
+	transform: rotate(720deg);
+	transition: 1s;
+
 }
 
 .rotate90 {
 	transform: rotate(90deg);
+	transition: .25s;
 }
 

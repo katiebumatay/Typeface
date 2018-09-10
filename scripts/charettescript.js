@@ -447,4 +447,11 @@ $(document).ready(function() {
 	});
 });
 
+//click to spin form
+$(document).ready(function() {
+	$('#two40').click(function() {
+		$(this).toggleClass("spinning");
+	});
+});
+
 
