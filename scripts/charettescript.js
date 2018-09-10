@@ -321,4 +321,16 @@ $(document).ready(function(){
 });
 
 
+// click to make move around and come back
+$(document).ready(function(){
+
+	$('#two27').click('click touchstart', function(){
+		$(this).animate({right: "1000",}, 400);
+		$(this).animate({right: "200", top: "-500"}, 400);
+		$(this).animate({right: "500", top: "500"}, 400);
+		$(this).animate({right: "0", top: "0"}, 400);
+	});
+
+});
+
 
