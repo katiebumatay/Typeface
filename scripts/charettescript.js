@@ -384,3 +384,15 @@ $(document).ready(function() {
 
 });
 
+//click to stretch both ways
+$(document).ready(function() {
+	$('#two32').click(function() {
+		$(this).animate({height: '800px'}, 800);
+		$(this).animate({width: '1000px'}, 500);
+		$(this).animate({height: '300px'}, 500);
+		$(this).animate({width: '300px'}, 500);
+
+	});
+
+});
+
