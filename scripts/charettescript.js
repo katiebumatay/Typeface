@@ -393,6 +393,15 @@ $(document).ready(function() {
 		$(this).animate({width: '300px'}, 500);
 
 	});
+});
 
+//click to make squares and send away
+$(document).ready(function() {
+	$('#two33 .hbar, #two33 .vbar').click(function() {
+		$('#two33 .hbar').animate({width: '10%'}, 400);
+		$('#two33 .vbar').animate({height: '10%'}, 400);
+		$('#two33 .hbar, #two33 .vbar').animate({top: '-500px', left: '-800px'}, 800);
+
+	});
 });
 
