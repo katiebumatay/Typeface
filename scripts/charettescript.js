@@ -355,6 +355,16 @@ $(document).ready(function(){
 });
 
 
+// click to make red with black border
+$(document).ready(function(){
+	 $('#two24').click(function(){
+	 	$('#two24 .hbar, #two24 .vbar').css("background-color", "red");
+	 	$('#two24 .hbar, #two24 .vbar').css("border-style", "solid");
+	 	$('#two24 .hbar, #two24 .vbar').css("border-width", "3px");
+        $('#two24 .hbar, #two24 .vbar').css("border-color", "black");
+    });
+});
+
 
 
 
