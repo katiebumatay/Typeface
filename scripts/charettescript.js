@@ -405,3 +405,9 @@ $(document).ready(function() {
 	});
 });
 
+//click to enlarge
+$(document).ready(function() {
+	$('#two34').click(function() {
+		$('#two34').animate({width: '600px', height: '600px'}, 400);
+	});
+});
