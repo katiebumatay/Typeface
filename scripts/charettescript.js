@@ -467,7 +467,17 @@ $(document).ready(function() {
 		$('#two42 .hbar, #two42 .vbar').toggleClass("rotate90");
 		$('#two42 .hbar').animate({width: '100%'}, 300);
 		$('#two42 .vbar').animate({height: '100%'}, 300);
+
 	});
 });
+
+//click to skew form horizontally
+$(document).ready(function() {
+	$('#two43').click(function() {
+		$(this).toggleClass("skewedH");
+	});
+});
+
+
 
 

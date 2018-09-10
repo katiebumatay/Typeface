@@ -104,3 +104,8 @@ div {
 	transition: .25s;
 }
 
+.skewed {
+	transform: skewX(45deg);
+	transition: .25s;
+}
+
