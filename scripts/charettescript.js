@@ -365,6 +365,15 @@ $(document).ready(function(){
     });
 });
 
+// click to make white with dotted border
+$(document).ready(function(){
+	 $('#two25').click(function(){
+	 	$('#two25 .hbar, #two25 .vbar').css("background-color", "white");
+	 	$('#two25 .hbar, #two25 .vbar').css("border-style", "dotted");
+	 	$('#two25 .hbar, #two25 .vbar').css("border-width", "3px");
+        $('#two25 .hbar, #two25 .vbar').css("border-color", "black");
+    });
+});
 
 
 
