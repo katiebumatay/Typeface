@@ -140,3 +140,10 @@ $(document).ready(function(){
 	});
 
 });
+
+// click #9 toggles show and hide of #8
+$(document).ready(function(){
+    $("#two9").click(function(){
+        $("#two8").toggle(800);
+    });
+});
