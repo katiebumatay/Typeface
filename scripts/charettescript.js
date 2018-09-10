@@ -73,3 +73,32 @@ $(document).ready(function(){
 	});
 
 });
+
+// each bar expands then contracts when hovered on
+$(document).ready(function(){
+
+	$('#two6 .hbar').mouseover(function(){
+		$(this).animate({
+		width: "100%",
+		}, 600);
+	});
+
+	$('#two6 .hbar').mouseover(function(){
+		$(this).animate({
+		width: "10%",
+		}, 300);
+	});
+
+	$('#two6 .vbar').mouseover(function(){
+		$(this).animate({
+		height: "100%",
+		}, 600);
+	});
+
+	$('#two6 .vbar').mouseover(function(){
+		$(this).animate({
+		height: "10%",
+		}, 300);
+	});
+
+});
