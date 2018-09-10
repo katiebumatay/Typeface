@@ -254,3 +254,20 @@ $(document).ready(function(){
 
 });
 
+// lengthen each bar that's clicked on, wide way
+$(document).ready(function(){
+
+	$('#two18 .hbar').click(function(){
+		$(this).animate({
+		height: "100vh",
+		}, 1000);
+	});
+
+	$('#two18 .vbar').click(function(){
+		$(this).animate({
+		width: "100vw",
+		}, 200);
+	});
+
+});
+
