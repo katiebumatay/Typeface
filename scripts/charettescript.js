@@ -411,3 +411,10 @@ $(document).ready(function() {
 		$('#two34').animate({width: '600px', height: '600px'}, 400);
 	});
 });
+
+//click to shrink
+$(document).ready(function() {
+	$('#two35').click(function() {
+		$('#two35').animate({width: '100px', height: '100px'}, 400);
+	});
+});
