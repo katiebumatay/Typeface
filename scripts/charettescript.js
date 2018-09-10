@@ -56,3 +56,20 @@ $(document).ready(function(){
 	});
 
 });
+
+// each bar expands then contracts when hovered on
+$(document).ready(function(){
+
+	$('#two5 .hbar, #two5 .vbar').mouseover(function(){
+		$(this).animate({
+		width: "100%",
+		}, 1000);
+	});
+
+	$('#two5 .hbar, #two5 .vbar').mouseover(function(){
+		$(this).animate({
+		width: "0",
+		}, 200);
+	});
+
+});
