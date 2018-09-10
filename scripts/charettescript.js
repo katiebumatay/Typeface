@@ -345,6 +345,14 @@ $(document).ready(function(){
 
 });
 
+// click to give red border
+$(document).ready(function(){
+	 $('#two23').click(function(){
+	 	$('#two23 .hbar, #two23 .vbar').css("border-style", "solid");
+	 	$('#two23 .hbar, #two23 .vbar').css("border-width", "3px");
+        $('#two23 .hbar, #two23 .vbar').css("border-color", "red");
+    });
+});
 
 
 
