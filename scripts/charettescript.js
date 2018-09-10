@@ -440,4 +440,11 @@ $(document).ready(function() {
 	});
 });
 
+//click to toggle 90deg rotation of every form
+$(document).ready(function() {
+	$('#two39').click(function() {
+		$('.two').toggleClass("rotate90");
+	});
+});
+
 
