@@ -74,7 +74,7 @@ $(document).ready(function(){
 
 });
 
-// each bar expands then contracts when hovered on
+// each bar expands then contracts when hovered on, length wise
 $(document).ready(function(){
 
 	$('#two6 .hbar').mouseover(function(){
@@ -98,6 +98,35 @@ $(document).ready(function(){
 	$('#two6 .vbar').mouseover(function(){
 		$(this).animate({
 		height: "10%",
+		}, 300);
+	});
+
+});
+
+// each bar expands then contracts when hovered on, width wise
+$(document).ready(function(){
+
+	$('#two7 .hbar').mouseover(function(){
+		$(this).animate({
+		height: "100%",
+		}, 600);
+	});
+
+	$('#two7 .hbar').mouseover(function(){
+		$(this).animate({
+		height: "10%",
+		}, 300);
+	});
+
+	$('#two7 .vbar').mouseover(function(){
+		$(this).animate({
+		width: "100%",
+		}, 600);
+	});
+
+	$('#two7 .vbar').mouseover(function(){
+		$(this).animate({
+		width: "10%",
 		}, 300);
 	});
 
