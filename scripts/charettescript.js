@@ -45,3 +45,14 @@ $(document).ready(function(){
 	});
 
 });
+
+// expands in width when clicked
+$(document).ready(function(){
+
+	$('#two4 .hbar, #two4 .vbar').click(function(){
+		$("#two4").animate({
+		width: "100%",
+		}, 1000);
+	});
+
+});
