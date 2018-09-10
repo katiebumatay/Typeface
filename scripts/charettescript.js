@@ -454,4 +454,11 @@ $(document).ready(function() {
 	});
 });
 
+//hover over each to spin each bar
+$(document).ready(function() {
+	$('#two41 .hbar, #two41 .vbar').mouseover(function(event) {
+		$(this).toggleClass("spinning");
+	});
+});
+
 
