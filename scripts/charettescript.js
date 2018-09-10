@@ -334,3 +334,23 @@ $(document).ready(function(){
 });
 
 
+//clicked one flashes
+$(document).ready(function(){
+
+	$('#two28').click('click touchstart', function(){
+		$(this).animate({opacity:"0",}, 200);
+		$(this).animate({opacity:"1",}, 200);
+		$(this).animate({opacity:"0",}, 200);
+		$(this).animate({opacity:"1",}, 200);
+		$(this).animate({opacity:"0",}, 200);
+		$(this).animate({opacity:"1",}, 200);
+		$(this).animate({opacity:"0",}, 200);
+		$(this).animate({opacity:"1",}, 200);
+		$(this).animate({opacity:"0",}, 200);
+		$(this).animate({opacity:"1",}, 200);
+		$(this).animate({opacity:"0",}, 200);
+		$(this).animate({opacity:"1",}, 200);
+	});
+
+});
+
