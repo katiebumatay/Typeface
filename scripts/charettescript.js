@@ -24,13 +24,24 @@ $(document).ready(function(){
 	$('.hbar, .vbar').mouseover(function(){
 		$("#two2").animate({
 		opacity:"0",
-		}, 200);
+		}, 0);
 	});
 
 	$('.hbar, .vbar').mouseout(function(){	
 		$("#two2").animate({
 		opacity:"1",
-		}, 200);
+		}, 0);
+	});
+
+});
+
+// each bar disappears when clicked
+$(document).ready(function(){
+
+	$('#two3 .hbar, #two3 .vbar').click(function(){
+		$(this).animate({
+		opacity:"0",
+		}, 1000);
 	});
 
 });
