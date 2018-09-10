@@ -374,3 +374,13 @@ $(document).ready(function() {
 
 });
 
+
+//click to move each bar to the left then disappear
+$(document).ready(function() {
+	$('#two31 .hbar, #two31 .vbar').click(function() {
+		$(this).animate({left: '0'}, 1000);
+		$(this).animate({opacity: '0'}, 500);
+	});
+
+});
+
