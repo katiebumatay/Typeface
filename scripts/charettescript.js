@@ -271,3 +271,20 @@ $(document).ready(function(){
 
 });
 
+// click any bar to make bolder
+$(document).ready(function(){
+
+	$('#two19 .hbar, #two19 .vbar').click(function(){
+		$('#two19 .hbar').animate({
+		height: "20%",
+		}, 200);
+		$('#two19 .vbar').animate({
+		width: "20%",
+		}, 200);
+	});
+
+});
+
+
+
+
