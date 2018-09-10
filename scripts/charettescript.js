@@ -418,3 +418,10 @@ $(document).ready(function() {
 		$('#two35').animate({width: '100px', height: '100px'}, 400);
 	});
 });
+
+//click to toggle change color
+$(document).ready(function() {
+	$('#two36').click(function() {
+		$('#two36 .hbar, #two36 .vbar').toggleClass("red");
+	});
+});

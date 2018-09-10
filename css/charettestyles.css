@@ -89,3 +89,17 @@ div {
 
 #width1 {width: 10%;}
 
+.red {
+	background-color: red;
+}
+
+.spin {
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+.rotate90 {
+	transform: rotate(90deg);
+}
+
