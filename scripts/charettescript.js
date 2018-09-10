@@ -200,3 +200,11 @@ $(document).ready(function(){
 	});
 });
 
+// click to invert
+$(document).ready(function(){
+	 $('#two14 .hbar, #two14 .vbar').click(function(){
+        $('#two14').css("background-color", "black");
+        $('#two14 .hbar, #two14 .vbar').css("background-color", "white");
+    });
+});
+
