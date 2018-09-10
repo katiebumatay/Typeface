@@ -161,3 +161,25 @@ $(document).ready(function(){
 		$('#two10 .hbar, #two10 .vbar').css("background-color", "blue");
 	});
 });
+
+// click one bar makes another go away
+$(document).ready(function(){
+    $("#two11 div:nth-child(1)").click(function(){
+        $("#two11 div:nth-child(2)").toggle(0);
+    });
+
+     $("#two11 div:nth-child(2)").click(function(){
+        $("#two11 div:nth-child(3)").toggle(0);
+    });
+
+     $("#two11 div:nth-child(3)").click(function(){
+        $("#two11 div:nth-child(4)").toggle(0);
+    });
+
+     $("#two11 div:nth-child(4)").click(function(){
+        $("#two11 div:nth-child(1)").toggle(0);
+    });
+});
+
+
+
