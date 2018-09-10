@@ -322,6 +322,29 @@ $(document).ready(function(){
 
 });
 
+// make all light while mouse is held
+$(document).ready(function(){
+
+	$('#two22').mousedown(function(){
+		$('.hbar').animate({
+		height: "2%",
+		}, 200);
+		$('.vbar').animate({
+		width: "2%",
+		}, 200);
+	});
+
+	$('#two22').mouseup(function(){
+		$('.hbar').animate({
+		height: "10%",
+		}, 200);
+		$('.vbar').animate({
+		width: "10%",
+		}, 200);
+	});
+
+});
+
 
 
 
