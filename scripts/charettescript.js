@@ -285,6 +285,20 @@ $(document).ready(function(){
 
 });
 
+// click any bar to make lighter
+$(document).ready(function(){
+
+	$('#two20 .hbar, #two20 .vbar').click(function(){
+		$('#two20 .hbar').animate({
+		height: "2%",
+		}, 200);
+		$('#two20 .vbar').animate({
+		width: "2%",
+		}, 200);
+	});
+
+});
+
 
 
 
