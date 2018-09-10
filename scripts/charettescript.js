@@ -1,21 +1,24 @@
+console.log("hello");
+
+
+// make opaque
 $(document).ready(function(){
 
-$('.bar').mouseover(function(){
+$('.hbar, .vbar').mouseover(function(){
 	
-	$(".letter").animate({
+	$(".two").animate({
 	opacity:".2",
-	
 	}, 200);
-
 
 });
 
-$('.bar').mouseout(function(){
+$('.hbar, .vbar').mouseout(function(){
 	
-	$(".letter").animate({
+	$(".two").animate({
 	opacity:"1",
 	}, 200);
 
 
 });
 
+});
