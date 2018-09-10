@@ -461,4 +461,13 @@ $(document).ready(function() {
 	});
 });
 
+//click to toggle 90deg rotation of bars and lengthen
+$(document).ready(function() {
+	$('#two42').click(function() {
+		$('#two42 .hbar, #two42 .vbar').toggleClass("rotate90");
+		$('#two42 .hbar').animate({width: '100%'}, 300);
+		$('#two42 .vbar').animate({height: '100%'}, 300);
+	});
+});
+
 
