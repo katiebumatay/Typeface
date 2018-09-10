@@ -181,5 +181,11 @@ $(document).ready(function(){
     });
 });
 
+// click #12 toggles show and hide of all others
+$(document).ready(function(){
+    $("#two12").click(function(){
+        $(".two").not("#two12").toggle(800);
+    });
+});
 
 
