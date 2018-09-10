@@ -299,6 +299,31 @@ $(document).ready(function(){
 
 });
 
+// make all bold while mouse is held
+$(document).ready(function(){
+
+	$('#two21').mousedown(function(){
+		$('.hbar').animate({
+		height: "20%",
+		}, 200);
+		$('.vbar').animate({
+		width: "20%",
+		}, 200);
+	});
+
+	$('#two21').mouseup(function(){
+		$('.hbar').animate({
+		height: "10%",
+		}, 200);
+		$('.vbar').animate({
+		width: "10%",
+		}, 200);
+	});
+
+});
+
+
+
 
 
 
