@@ -147,3 +147,17 @@ $(document).ready(function(){
         $("#two8").toggle(800);
     });
 });
+
+
+//color change on hover and disappear when clicked
+$(document).ready(function(){
+    $("#two10").click(function(){
+        $("#two10").toggle(800);
+    });
+    $('#two10').mouseover(function(){
+		$('#two10 .hbar, #two10 .vbar').css("background-color", "red");
+	});
+	$('#two10').mouseout(function(){
+		$('#two10 .hbar, #two10 .vbar').css("background-color", "blue");
+	});
+});
