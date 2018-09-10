@@ -354,3 +354,13 @@ $(document).ready(function(){
 
 });
 
+//click to condense up
+$(document).ready(function() {
+	$('#two29').click('click touchstart', function() {
+		$(this).animate({height: '0px'}, 1000);
+		$(this).animate({height: '300px'}, 800);
+
+	});
+
+});
+
