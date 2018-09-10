@@ -11,7 +11,7 @@ div {
 	display: inline-block;
 	position: relative;
 	box-sizing: content-box;
-	margin: 100px 50px 100px 50px;
+	margin: 120px 50px 120px 50px;
 	height: 300px;
 	width: 300px;
 	float: left;
@@ -88,3 +88,4 @@ div {
 #width2 {width: 20%;}
 
 #width1 {width: 10%;}
+
