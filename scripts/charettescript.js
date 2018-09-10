@@ -131,3 +131,12 @@ $(document).ready(function(){
 	});
 
 });
+
+// turns red when click any bar
+$(document).ready(function(){
+
+	$('#two8 .hbar, #two8 .vbar').click(function(){
+		$('#two8 .hbar, #two8 .vbar').css("background-color", "red");
+	});
+
+});
