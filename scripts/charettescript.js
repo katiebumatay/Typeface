@@ -509,3 +509,12 @@ $(document).ready(function(){
 	});
 });
 
+//click to skew form horizontally and lighten
+$(document).ready(function() {
+	$('#two48').click(function() {
+		$(this).toggleClass("skewedH");
+		$('#two48 .hbar').animate({height: "2%",}, 250);
+		$('#two48 .vbar').animate({width: "2%",}, 250);
+	});
+});
+
