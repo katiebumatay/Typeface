@@ -619,5 +619,14 @@ $(document).ready(function() {
 	$('#two59 .vbar').mouseover(function(event) {
 		$(this).toggleClass("skewedV");
 	});
+});
 
+//hover over each to skew each bar other way
+$(document).ready(function() {
+	$('#two60 .hbar').mouseover(function(event) {
+		$(this).toggleClass("skewedV");
+	});
+	$('#two60 .vbar').mouseover(function(event) {
+		$(this).toggleClass("skewedH");
+	});
 });
