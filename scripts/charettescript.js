@@ -518,3 +518,13 @@ $(document).ready(function() {
 	});
 });
 
+// click to make spin and make bars long
+$(document).ready(function(){
+	$('#two49').click(function(){
+		$(this).toggleClass("spinning");
+		$('#two49 .hbar').animate({width: "200%",}, 250);
+		$('#two49 .vbar').animate({height: "200%",}, 250);
+	});
+});
+
+
