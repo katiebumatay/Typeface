@@ -114,3 +114,8 @@ div {
 	transition: .25s;
 }
 
+.mirror {
+	transform: rotateY(180deg);
+	transition: .25s;
+}
+

@@ -478,12 +478,20 @@ $(document).ready(function() {
 	});
 });
 
-//click to skew form horizontally
+//click to skew form vertically
 $(document).ready(function() {
 	$('#two44').click(function() {
 		$(this).toggleClass("skewedV");
 	});
 });
+
+//click to mirror image
+$(document).ready(function() {
+	$('#two45').click(function() {
+		$(this).toggleClass("mirror");
+	});
+});
+
 
 
 
