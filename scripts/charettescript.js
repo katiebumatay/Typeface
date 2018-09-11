@@ -613,20 +613,31 @@ $(document).ready(function(){
 
 //hover over each to skew each bar
 $(document).ready(function() {
-	$('#two59 .hbar').mouseover(function(event) {
+	$('#two59 .hbar').mouseover(function() {
 		$(this).toggleClass("skewedH");
 	});
-	$('#two59 .vbar').mouseover(function(event) {
+	$('#two59 .vbar').mouseover(function() {
 		$(this).toggleClass("skewedV");
 	});
 });
 
 //hover over each to skew each bar other way
 $(document).ready(function() {
-	$('#two60 .hbar').mouseover(function(event) {
+	$('#two60 .hbar').mouseover(function() {
 		$(this).toggleClass("skewedV");
 	});
-	$('#two60 .vbar').mouseover(function(event) {
+	$('#two60 .vbar').mouseover(function() {
 		$(this).toggleClass("skewedH");
+	});
+});
+
+//click to make figure spin and skew bars
+$(document).ready(function() {
+	$('#two61').click(function() {
+		$('#two61 .hbar').toggleClass("skewedV");
+		$('#two61 .vbar').toggleClass("skewedH");
+	});
+	$('#two61').click(function() {
+		$(this).toggleClass("spinning");
 	});
 });
