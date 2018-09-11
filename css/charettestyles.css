@@ -104,6 +104,11 @@ div {
 	transition: .25s;
 }
 
+.slowflip {
+	transform: rotateX(360deg);
+	transition: 5s;
+}
+
 .skewedH {
 	transform: skewX(45deg);
 	transition: .25s;

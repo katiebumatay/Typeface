@@ -539,3 +539,11 @@ $(document).ready(function() {
 	});
 });
 
+//click to flip form
+$(document).ready(function() {
+	$('#two51').click(function() {
+		$(this).toggleClass("slowflip");
+	});
+});
+
+
