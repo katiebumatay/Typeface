@@ -569,3 +569,11 @@ $(document).ready(function() {
 		$(this).animate({height: "600px",});
 	});
 });
+
+//click to toggle outline of bars
+$(document).ready(function() {
+	$('#two55 .hbar, #two55 .vbar').click(function() {
+		$(this).toggleClass("outline");
+	});
+});
+

@@ -129,5 +129,12 @@ div {
 	transition: .25s;
 }
 
+.outline {
+	background-color: white;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
 
 
