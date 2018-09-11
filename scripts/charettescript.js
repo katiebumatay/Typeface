@@ -641,3 +641,14 @@ $(document).ready(function() {
 		$(this).toggleClass("spinning");
 	});
 });
+
+//click to make figure spin and skew bars
+$(document).ready(function() {
+	$('#two62').click(function() {
+		$('#two62 .hbar').toggleClass("skewedV");
+		$('#two62 .vbar').toggleClass("skewedH");
+	});
+	$('#two62').click(function() {
+		$(this).toggleClass("spinning").animate({opacity: "0",});
+	});
+});
