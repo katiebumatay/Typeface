@@ -492,7 +492,11 @@ $(document).ready(function() {
 	});
 });
 
-
-
+//click to mirror image all others
+$(document).ready(function() {
+	$('#two46').click(function() {
+		$('.two').toggleClass("mirror");
+	});
+});
 
 
