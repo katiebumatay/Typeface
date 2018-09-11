@@ -500,3 +500,12 @@ $(document).ready(function() {
 });
 
 
+// click to make spin and bold
+$(document).ready(function(){
+	$('#two47').click(function(){
+		$(this).toggleClass("spinning");
+		$('#two47 .hbar').animate({height: "20%",}, 250);
+		$('#two47 .vbar').animate({width: "20%",}, 250);
+	});
+});
+
