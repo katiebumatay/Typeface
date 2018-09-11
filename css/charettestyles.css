@@ -109,6 +109,11 @@ div {
 	transition: 5s;
 }
 
+.twirl {
+	transform: rotateY(360deg);
+	transition: 2s;
+}
+
 .skewedH {
 	transform: skewX(45deg);
 	transition: .25s;
@@ -117,6 +122,14 @@ div {
 .skewedV {
 	transform: skewY(45deg);
 	transition: .25s;
+}
+
+.stretchH {
+	transform: scaleX(2);
+}
+
+.stretchV {
+	transform: scaleY(2);
 }
 
 .mirror {

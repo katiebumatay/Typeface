@@ -554,3 +554,10 @@ $(document).ready(function(){
 		$('#two52 .vbar').animate({width: "0%",}, 5000);
 	});
 });
+
+//click to twirl form
+$(document).ready(function() {
+	$('#two53').click(function() {
+		$(this).toggleClass("twirl");
+	});
+});
