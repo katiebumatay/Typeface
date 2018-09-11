@@ -546,4 +546,11 @@ $(document).ready(function() {
 	});
 });
 
-
+// click to make fliip and disappear
+$(document).ready(function(){
+	$('#two52').click(function(){
+		$(this).toggleClass("slowflip");
+		$('#two52 .hbar').animate({height: "0%",}, 5000);
+		$('#two52 .vbar').animate({width: "0%",}, 5000);
+	});
+});
