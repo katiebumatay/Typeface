@@ -124,14 +124,6 @@ div {
 	transition: .25s;
 }
 
-.stretchH {
-	transform: scaleX(2);
-}
-
-.stretchV {
-	transform: scaleY(2);
-}
-
 .mirror {
 	transform: rotateY(180deg);
 	transition: .25s;

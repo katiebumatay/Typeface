@@ -561,3 +561,11 @@ $(document).ready(function() {
 		$(this).toggleClass("twirl");
 	});
 });
+
+//click to twirl and stretch form
+$(document).ready(function() {
+	$('#two54').click(function() {
+		$(this).toggleClass("twirl");
+		$(this).animate({height: "600px",});
+	});
+});
