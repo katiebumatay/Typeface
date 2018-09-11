@@ -570,10 +570,19 @@ $(document).ready(function() {
 	});
 });
 
-//click to toggle outline of bars
+//click to toggle outline of individual bars
 $(document).ready(function() {
 	$('#two55 .hbar, #two55 .vbar').click(function() {
 		$(this).toggleClass("outline");
 	});
 });
+
+//click to make disappear and come back
+$(document).ready(function() {
+	$('#two56').click('click start', function() {
+		$(this).animate({opacity: "0",}, 2000);
+		$(this).animate({opacity: "1",}, 2000);
+	});
+});
+
 
