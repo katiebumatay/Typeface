@@ -591,3 +591,23 @@ $(document).ready(function() {
 		$(this).toggleClass("spinning").animate({opacity: "0",});
 	});
 });
+
+// each bar expands then contracts when hovered on, length wise, click to spin
+$(document).ready(function(){
+	$('#two58 .hbar').mouseover(function(){
+		$(this).animate({width: "100%",}, 600);
+	});
+	$('#two58 .hbar').mouseover(function(){
+		$(this).animate({width: "10%",}, 300);
+	});
+	$('#two58 .vbar').mouseover(function(){
+		$(this).animate({height: "100%",}, 600);
+	});
+	$('#two58 .vbar').mouseover(function(){
+		$(this).animate({height: "10%",}, 300);	
+	}); 
+	$('#two58').click(function() {
+		$(this).toggleClass("spinning");
+	});
+
+});
