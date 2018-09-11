@@ -585,4 +585,9 @@ $(document).ready(function() {
 	});
 });
 
-
+//click to spin and fade out
+$(document).ready(function() {
+	$('#two57').click(function() {
+		$(this).toggleClass("spinning").animate({opacity: "0",});
+	});
+});
