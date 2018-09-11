@@ -609,5 +609,15 @@ $(document).ready(function(){
 	$('#two58').click(function() {
 		$(this).toggleClass("spinning");
 	});
+});
+
+//hover over each to skew each bar
+$(document).ready(function() {
+	$('#two59 .hbar').mouseover(function(event) {
+		$(this).toggleClass("skewedH");
+	});
+	$('#two59 .vbar').mouseover(function(event) {
+		$(this).toggleClass("skewedV");
+	});
 
 });
