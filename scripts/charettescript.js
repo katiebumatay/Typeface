@@ -527,4 +527,15 @@ $(document).ready(function(){
 	});
 });
 
+//click for thin to bold to normal
+$(document).ready(function() {
+	$('#two50').click(function() {
+		$('#two50 .hbar').animate({height: "2%",}, 500);
+		$('#two50 .vbar').animate({width: "2%",}, 500);
+		$('#two50 .hbar').animate({height: "20%",}, 500);
+		$('#two50 .vbar').animate({width: "20%",}, 500);
+		$('#two50 .hbar').animate({height: "10%",}, 500);
+		$('#two50 .vbar').animate({width: "10%",}, 500);
+	});
+});
 
