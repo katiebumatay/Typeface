@@ -732,3 +732,12 @@ $(document).ready(function(){
 	});
 });
 
+// click to toggle lengthening lines
+$(document).ready(function(){
+	$('#two70').click(function() {
+		$('.vbar').toggleClass("stretchY");
+		$('.hbar').toggleClass("stretchX");
+	});
+});
+
+
