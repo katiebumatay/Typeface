@@ -775,5 +775,13 @@ $(document).ready(function(){
 	});
 });
 
+// click spin and twirl
+$(document).ready(function(){
+	$('#two75').click(function() {
+		$(this).toggleClass("spinning");
+		$('#two75 .hbar, #two75 .vbar').toggleClass('twirl');
+	});
+});
+
 
 
