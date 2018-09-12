@@ -141,14 +141,21 @@ div {
 	transition: 3s
 }
 
-.nightskyBars  {
-	background-color: white;
+.barsToStars  {
 	width: 10% !important;
 	height: 10% !important;
 	transform: rotate(45deg);
 	transition: 3s;
 }
 
+.whiteBars  {
+	background-color: white;
+}
+
+.shrinkAway {
+	width: 0px !important;
+	height: 0px !important;
+}
 
 
 

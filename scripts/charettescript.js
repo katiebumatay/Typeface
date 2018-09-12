@@ -694,7 +694,8 @@ $(document).ready(function(){
 //click to turn page into starry sky
 $(document).ready(function(){
 	$('#two65').click(function() {
-		$('.vbar, .hbar').toggleClass("nightskyBars");
+		$('.vbar, .hbar').toggleClass("barsToStars");
+		$('.vbar, .hbar').toggleClass("whiteBars");
 		$('body').toggleClass('nightskyBody');
 	});
 });
@@ -712,5 +713,12 @@ $(document).ready(function() {
 $(document).ready(function() {
 	$('#two67').click('click start', function() {
 		$(".two").animate({left: "100px", top: "100px"}, 1000);
+	});
+});
+
+// click each bar to shrink and spin to nothing
+$(document).ready(function(){
+	$('#two68 .vbar, #two68 .hbar').click('click start', function() {
+		$(this).toggleClass("shrinkAway").toggleClass("spinning");
 	});
 });
