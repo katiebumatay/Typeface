@@ -699,11 +699,18 @@ $(document).ready(function(){
 	});
 });
 
-//click to make all disappear and come back
+// click to make all disappear and come back
 $(document).ready(function() {
 	$('#two66').click('click start', function() {
 		$(".two").animate({opacity: "0",}, 2000);
 		$(".two").animate({opacity: "0",}, 2000);
 		$(".two").animate({opacity: "1",}, 2000);
+	});
+});
+
+// click to make all shift down and left
+$(document).ready(function() {
+	$('#two67').click('click start', function() {
+		$(".two").animate({left: "100px", top: "100px"}, 1000);
 	});
 });
