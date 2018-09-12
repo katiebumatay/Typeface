@@ -722,3 +722,13 @@ $(document).ready(function(){
 		$(this).toggleClass("shrinkAway").toggleClass("spinning");
 	});
 });
+
+
+//click to make page black with neon forms
+$(document).ready(function(){
+	$('#two69').click(function() {
+		$('.vbar, .hbar').toggleClass("neonBars");
+		$('body').toggleClass('blackBG');
+	});
+});
+

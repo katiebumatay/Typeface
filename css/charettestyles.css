@@ -141,6 +141,10 @@ div {
 	transition: 3s
 }
 
+.blackBG {
+	background-color: black;
+}
+
 .barsToStars  {
 	width: 10% !important;
 	height: 10% !important;
@@ -150,6 +154,10 @@ div {
 
 .whiteBars  {
 	background-color: white;
+}
+
+.neonBars {
+	background-color: #00ff00;
 }
 
 .shrinkAway {
