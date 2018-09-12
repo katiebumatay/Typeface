@@ -754,6 +754,16 @@ $(document).ready(function(){
 		$('body').toggleClass("blackBG");
 		$('.hbar, .vbar').toggleClass('whiteBars');
 		$('.two').toggleClass('spinning');
+	});
+});
+
+// click to rotate and lengthen lines of all, turn this one red
+$(document).ready(function(){
+	$('#two73').click(function() {
+		$('.vbar').toggleClass("stretchY");
+		$('.hbar').toggleClass("stretchX");
+		$('.two').toggleClass('rotate90');
+		$('#two73 .hbar, #two73 .vbar').css("background-color", "red");
 
 	});
 });
