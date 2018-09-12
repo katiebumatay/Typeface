@@ -748,4 +748,14 @@ $(document).ready(function(){
 	});
 });
 
+// click to make black bg with spinning white forms
+$(document).ready(function(){
+	$('#two72').click('click start', function() {
+		$('body').toggleClass("blackBG");
+		$('.hbar, .vbar').toggleClass('whiteBars');
+		$('.two').toggleClass('spinning');
+
+	});
+});
+
 
