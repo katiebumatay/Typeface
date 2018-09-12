@@ -18,13 +18,15 @@ console.log("hello");
 $(document).ready(function(){
 
 	$('.letter .hbar').mouseover(function(){
-		var randomW = Math.floor(Math.random() * 101); 
-		$(this).animate({width: randomW,}, 600).animate({width: "10%",}, 300);
+		var randomW = Math.floor(Math.random() * 101) + 10+ '%'; 
+		var time = Math.floor(Math.random() * 101) + 300; 
+		$(this).animate({width: randomW,}, time).animate({width: "10%",}, time);
 	});
 
 	$('.letter .vbar').mouseover(function(){
-		var randomH = Math.floor(Math.random() * 101); 
-		$(this).animate({height: randomH,}, 600).animate({height: "10%",}, 300);
+		var randomH = Math.floor(Math.random() * 101) + 10 + '%'; 
+		var time = Math.floor(Math.random() * 101) + 300; 
+		$(this).animate({height: randomH,}, time).animate({height: "10%",}, time);
 	});
 
 });
