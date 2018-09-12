@@ -642,7 +642,7 @@ $(document).ready(function() {
 	});
 });
 
-//click to make figure spin and skew bars
+//click to make figure spin and skew bars then disappear
 $(document).ready(function() {
 	$('#two62').click(function() {
 		$('#two62 .hbar').toggleClass("skewedV");
@@ -651,4 +651,25 @@ $(document).ready(function() {
 	$('#two62').click(function() {
 		$(this).toggleClass("spinning").animate({opacity: "0",});
 	});
+});
+
+// each bar expands then contracts when hovered on, length wise, and skew
+$(document).ready(function(){
+	$('#two63 .hbar').mouseover(function(){
+		$(this).animate({width: "100%",}, 600);
+	});
+	$('#two63 .hbar').mouseover(function(){
+		$(this).animate({width: "10%",}, 300);
+	});
+	$('#two63 .vbar').mouseover(function(){
+		$(this).animate({height: "100%",}, 600);
+	});
+	$('#two63 .vbar').mouseover(function(){
+		$(this).animate({height: "10%",}, 300);	
+	}); 
+	$('#two63').mouseover(function() {
+		$('#two63 .hbar').toggleClass("skewedV");
+		$('#two63 .vbar').toggleClass("skewedH");
+	});
+	
 });
