@@ -19,14 +19,16 @@ $(document).ready(function(){
 
 	$('.letter .hbar').mouseover(function(){
 		var randomW = Math.floor(Math.random() * 101) + 10+ '%'; 
-		var time = Math.floor(Math.random() * 101) + 300; 
-		$(this).animate({width: randomW,}, time).animate({width: "10%",}, time);
+		var time = Math.floor(Math.random() * 300) + 500;
+		var time2 = Math.floor(Math.random() * 300) + 600; 
+		$(this).animate({width: randomW,}, time).animate({width: "10%",}, time2);
 	});
 
 	$('.letter .vbar').mouseover(function(){
 		var randomH = Math.floor(Math.random() * 101) + 10 + '%'; 
-		var time = Math.floor(Math.random() * 101) + 300; 
-		$(this).animate({height: randomH,}, time).animate({height: "10%",}, time);
+		var time3 = Math.floor(Math.random() * 300) + 500; 
+		var time4 = Math.floor(Math.random() * 300) + 500; 
+		$(this).animate({height: randomH,}, time3).animate({height: "10%",}, time4);
 	});
 
 });
