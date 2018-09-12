@@ -764,8 +764,16 @@ $(document).ready(function(){
 		$('.hbar').toggleClass("stretchX");
 		$('.two').toggleClass('rotate90');
 		$('#two73 .hbar, #two73 .vbar').css("background-color", "red");
-
 	});
 });
+
+// click flip and twirl
+$(document).ready(function(){
+	$('#two74').click(function() {
+		$(this).toggleClass("slowflip");
+		$('#two74 .hbar, #two74 .vbar').toggleClass('twirl');
+	});
+});
+
 
 
