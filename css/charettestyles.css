@@ -138,6 +138,7 @@ div {
 
 .nightskyBody {
 	background-color: #1e365e;
+	transition: 3s
 }
 
 .nightskyBars  {
@@ -145,6 +146,7 @@ div {
 	width: 10% !important;
 	height: 10% !important;
 	transform: rotate(45deg);
+	transition: 3s;
 }
 
 

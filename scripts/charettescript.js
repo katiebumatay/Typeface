@@ -698,3 +698,12 @@ $(document).ready(function(){
 		$('body').toggleClass('nightskyBody');
 	});
 });
+
+//click to make all disappear and come back
+$(document).ready(function() {
+	$('#two66').click('click start', function() {
+		$(".two").animate({opacity: "0",}, 2000);
+		$(".two").animate({opacity: "0",}, 2000);
+		$(".two").animate({opacity: "1",}, 2000);
+	});
+});
