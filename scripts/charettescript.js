@@ -674,7 +674,7 @@ $(document).ready(function(){
 	
 });
 
-// each bar expands then contracts when hovered on, length wise, and skew
+// each bar expands then contracts when hovered on, length wise, click to skew
 $(document).ready(function(){
 	$('#two64').click(function() {
 		$('#two64 .hbar').toggleClass("skewedV");
@@ -691,4 +691,10 @@ $(document).ready(function(){
 	
 });
 
-
+//click to turn page into starry sky
+$(document).ready(function(){
+	$('#two65').click(function() {
+		$('.vbar, .hbar').toggleClass("nightskyBars");
+		$('body').toggleClass('nightskyBody');
+	});
+});

@@ -136,5 +136,18 @@ div {
 	border-color: black;
 }
 
+.nightskyBody {
+	background-color: #1e365e;
+}
+
+.nightskyBars  {
+	background-color: white;
+	width: 10% !important;
+	height: 10% !important;
+	transform: rotate(45deg);
+}
+
+
+
 
 
