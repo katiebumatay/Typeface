@@ -673,3 +673,22 @@ $(document).ready(function(){
 	});
 	
 });
+
+// each bar expands then contracts when hovered on, length wise, and skew
+$(document).ready(function(){
+	$('#two64').click(function() {
+		$('#two64 .hbar').toggleClass("skewedV");
+		$('#two64 .vbar').toggleClass("skewedH");
+	});
+	$('#two64 .hbar').mouseover(function(){
+		$(this).animate({width: "100%",}, 600);
+		$(this).animate({width: "10%",}, 300);
+	});
+	$('#two64 .vbar').mouseover(function(){
+		$(this).animate({height: "100%",}, 600);
+		$(this).animate({height: "10%",}, 300);	
+	}); 
+	
+});
+
+
