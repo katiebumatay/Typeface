@@ -740,4 +740,12 @@ $(document).ready(function(){
 	});
 });
 
+// click to make vertical bars long and green, horizontal bars spin
+$(document).ready(function(){
+	$('#two71').click('click start', function() {
+		$('.vbar').toggleClass("stretchY").toggleClass('neonBars');
+		$('.hbar').toggleClass('spinning');
+	});
+});
+
 

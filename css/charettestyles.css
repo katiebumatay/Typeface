@@ -167,9 +167,11 @@ div {
 
 .stretchX {
 	transform: scaleX(2) !important;
+	transition: .5s;
 }
 
 .stretchY {
 	transform: scaleY(2) !important;
+	transition: .5s;
 }
 
