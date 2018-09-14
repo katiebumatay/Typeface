@@ -921,3 +921,18 @@ div {
 
 
 /******** effects ********/
+
+.nightskyBody {
+	background-color: #1e365e;
+	transition: 3s;
+}
+
+.barsToStars  {
+	background-color: #1e365e;
+	width: 10% !important;
+	height: 10% !important;
+	transform: rotate(45deg);
+	transition: 3s;
+	background-color: white;
+}
+
