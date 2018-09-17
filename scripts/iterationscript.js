@@ -36,7 +36,7 @@ $(document).ready(function(){
 // });
 
 	//click to turn page into starry sky
-	$('.letter').click(function() {
+	$('.letter').dblclick(function() {
 		$('.vbar, .hbar').toggleClass("barsToStars");
 		$('body').toggleClass('nightskyBody');
 		// nightTime = true;
@@ -103,6 +103,7 @@ $(document).ready(function(){
 		//make stars shoot away
 		$('.letter .hbar').mouseover(function(){
 			if ($('body').hasClass('nightskyBody')) {
+				// $(this).animate({width: '150%',}, 200);
 				var goLeft = Math.floor(Math.random() * 300) + 500; 
 				var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
 				var time1 = Math.floor(Math.random() * 300) + 200;
@@ -119,6 +120,10 @@ $(document).ready(function(){
 			}
 		});
 	//end -- shoots in night mode correctly, but has delay on toggle and on shooting
+
+	// $('.letter #a').click(function() {
+	// 	$(this).toggleClass('.letterFull #a');
+	// }
 
 
 

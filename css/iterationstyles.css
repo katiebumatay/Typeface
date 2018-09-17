@@ -1,5 +1,6 @@
 body {
 	min-width: 1000px;
+	background-color: #b2d2f4;
 }
 
 div {
@@ -45,6 +46,8 @@ div {
 	height: 10%;
 	top:0%;
 	left:0%;
+	background-color: #fffde8;
+	/*padding: 5%;*/
 }
 
 .hbar {
@@ -54,6 +57,8 @@ div {
 	height: 10%;
 	top:0%;
 	left:0%;
+	background-color: #fffde8;
+	/*padding: 5%;*/
 }
 
 #length10 {height: 100%;}
@@ -923,8 +928,8 @@ div {
 /******** effects ********/
 
 .nightskyBody {
-	background-color: #1e365e;
-/*	transition: 3s;*/
+	background-color: #141835;
+/*	transition: 3s;  makes the stars shoot with this too */
 }
 
 .barsToStars  {
@@ -932,7 +937,7 @@ div {
 	width: 10% !important;
 	height: 10% !important;
 	transform: rotate(45deg);
-/*	transition: 3s;*/
+/*	transition: 3s;  makes the stars shoot with this too */
 	background-color: white;
 }
 
