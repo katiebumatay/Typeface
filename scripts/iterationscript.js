@@ -5,25 +5,40 @@ $(document).ready(function(){
 	// var nightTime = false;
 
 	//expand and contract bars
-	$('.letter .hbar').mouseover(function(){
+	$('#a').mouseover(function(){
 		if (!$('body').hasClass('nightskyBody')) {
 			$(this).toggleClass("[class^='width']");
 			var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
 			var time = Math.floor(Math.random() * 300) + 500;
-			var time2 = Math.floor(Math.random() * 300) + 600; 
-			$(this).animate({width: randomW,}, time).animate({width: "10%",}, time2);
+			$('#a1').animate({width: randomW,}, time).animate({width: "10%",}, time);
+			var randomW2 = Math.floor(Math.random() * 150) + 10+ '%'; 
+			var time2 = Math.floor(Math.random() * 300) + 500;
+			$('#a2').animate({width: randomW2,}, time2).animate({width: "10%",}, time2);
+			var randomW3 = Math.floor(Math.random() * 150) + 10+ '%'; 
+			var time3 = Math.floor(Math.random() * 300) + 500;
+			$('#a3').animate({width: randomW3,}, time3).animate({width: "10%",}, time3);
+			var randomW4 = Math.floor(Math.random() * 150) + 10+ '%'; 
+			var time4 = Math.floor(Math.random() * 300) + 500;
+			$('#a4').animate({width: randomW4,}, time4).animate({width: "10%",}, time4);
+			var randomW5 = Math.floor(Math.random() * 150) + 10+ '%'; 
+			var time5 = Math.floor(Math.random() * 300) + 500;
+			$('#a5').animate({width: randomW5,}, time5).animate({width: "10%",}, time5);
+			var randomW6 = Math.floor(Math.random() * 150) + 10+ '%'; 
+			var time6 = Math.floor(Math.random() * 300) + 500;
+			$('#a6').animate({width: randomW6,}, time6).animate({width: "10%",}, time6);
+
 		}
 	});
 
-	$('.letter .vbar').mouseover(function(){
-		if (!$('body').hasClass('nightskyBody')) {
-			$(this).toggleClass("[class^='width']");
-			var randomH = Math.floor(Math.random() * 150) + 10 + '%'; 
-			var time3 = Math.floor(Math.random() * 300) + 500; 
-			var time4 = Math.floor(Math.random() * 300) + 500; 
-			$(this).animate({height: randomH,}, time3).animate({height: "10%",}, time4);
-		}
-	});
+	// $('#a').mouseover(function(){
+	// 	if (!$('body').hasClass('nightskyBody')) {
+	// 		$(this).toggleClass("[class^='width']");
+	// 		var randomH = Math.floor(Math.random() * 150) + 10 + '%'; 
+	// 		var time3 = Math.floor(Math.random() * 300) + 500; 
+	// 		var time4 = Math.floor(Math.random() * 300) + 500; 
+	// 		$('#a .vbar').animate({height: randomH,}, time3).animate({height: "10%",}, time4);
+	// 	}
+	// });
 
 	// end
 
