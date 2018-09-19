@@ -125,6 +125,10 @@ $(document).ready(function(){
 	// 	$(this).toggleClass('.letterFull #a');
 	// }
 
+	$('.letter #a').click(function() {
+		$(this).toggleClass(".letterFull #a");
+	});
+
 
 
 
