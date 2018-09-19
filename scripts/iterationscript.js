@@ -2,10 +2,28 @@ console.log("hello");
 
 $(document).ready(function(){
 
-	$.fn.randomAnimate = function() {
+	$.fn.vbarAnimate = function() {
 		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
 		var time = Math.floor(Math.random() * 300) + 500;
 		$(this).animate({width: randomW,}, time).animate({width: "10%",}, time);
+	}
+
+	$.fn.hbarAnimate = function() {
+		var randomH = Math.floor(Math.random() * 150) + 10+ '%'; 
+		var time = Math.floor(Math.random() * 300) + 500;
+		$(this).animate({height: randomH,}, time).animate({height: "10%",}, time);
+	}
+
+		$.fn.vbarSet = function() {
+		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
+		var time = Math.floor(Math.random() * 300) + 500;
+		$(this).animate({width: randomW,}, time);
+	}
+
+	$.fn.hbarSet = function() {
+		var randomH = Math.floor(Math.random() * 150) + 10+ '%'; 
+		var time = Math.floor(Math.random() * 300) + 500;
+		$(this).animate({height: randomH,}, time);
 	}
 
 	// var nightTime = false;
@@ -34,15 +52,25 @@ $(document).ready(function(){
 	// 	}
 	// });
 
-	$('#a').mouseover(function(){
+	$('#a').mouseenter(function(){
 		if (!$('body').hasClass('nightskyBody')) {
-			$(this).toggleClass("[class^='width']");
-			$('#a1').randomAnimate();
-			$('#a2').randomAnimate();
-			$('#a3').randomAnimate();
-			$('#a4').randomAnimate();
-			$('#a5').randomAnimate();
-			$('#a6').randomAnimate();
+			$('#a1').vbarAnimate();
+			$('#a2').vbarAnimate();
+			$('#a3').vbarAnimate();
+			$('#a4').vbarAnimate();
+			$('#a5').vbarAnimate();
+			$('#a6').hbarAnimate();
+		}
+	});
+
+		$('#a').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#a1').vbarSet();
+			$('#a2').vbarSet();
+			$('#a3').vbarSet();
+			$('#a4').vbarSet();
+			$('#a5').vbarSet();
+			$('#a6').hbarSet();
 
 		}
 	});
@@ -61,16 +89,9 @@ $(document).ready(function(){
 // //reload form
 // $(document).ready(function(){
 
-	$('#b').click(function(){
-		$('#b').load("iteration.html #b");
-	});
-// });
-
-// $(document).ready(function(){
-
-// 	$('.letter').click(function(){
-// 		$(this).toggleClass("reload");
-// 	});
+	// $('#b').click(function(){
+	// 	$('#b').load("iteration.html #b");
+	// });
 // });
 
 	//click to turn page into starry sky
@@ -80,63 +101,6 @@ $(document).ready(function(){
 		// nightTime = true;
 	});
 	//end
-
-
-	// //make stars shoot away
-	// if (nightTime == true) {
-	// 	$('.letter .hbar').mouseover(function(){
-	// 		var goLeft = Math.floor(Math.random() * 300) + 500; 
-	// 		var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
-	// 		var time1 = Math.floor(Math.random() * 300) + 200;
-	// 		$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
-	// 	});
-
-	// 	$('.letter .vbar').mouseover(function(){
-	// 		var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
-	// 		var goDown = (Math.floor(Math.random() * 300) + 500);
-	// 		var time2 = Math.floor(Math.random() * 300) + 200;
-	// 		$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
-	// 	});
-	// }
-	// //end -- doesnt shoot in either mode
-
-	// 	//make stars shoot away
-	// 	$('.letter .hbar').mouseover(function(){
-	// 		if (nightTime == true) {
-	// 			var goLeft = Math.floor(Math.random() * 300) + 500; 
-	// 			var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
-	// 			var time1 = Math.floor(Math.random() * 300) + 200;
-	// 			$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
-	// 		}
-	// 	});
-
-	// 	$('.letter .vbar').mouseover(function(){
-	// 		if (nightTime == true) {
-	// 			var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
-	// 			var goDown = (Math.floor(Math.random() * 300) + 500);
-	// 			var time2 = Math.floor(Math.random() * 300) + 200;
-	// 			$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
-	// 		}
-	// 	});
-	// //end -- shoots even when not in night mode
-
-	// //make stars shoot away
-	// if ($('body').hasClass('nightskyBody')) {
-	// 	$('.letter .hbar').mouseover(function(){
-	// 		var goLeft = Math.floor(Math.random() * 300) + 500; 
-	// 		var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
-	// 		var time1 = Math.floor(Math.random() * 300) + 200;
-	// 		$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
-	// 	});
-
-	// 	$('.letter .vbar').mouseover(function(){
-	// 		var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
-	// 		var goDown = (Math.floor(Math.random() * 300) + 500);
-	// 		var time2 = Math.floor(Math.random() * 300) + 200;
-	// 		$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
-	// 	});
-	// }
-	// //end -- doesnt shoot in either mode
 
 		//make stars shoot away
 		$('.letter .hbar').mouseover(function(){
