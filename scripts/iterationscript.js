@@ -5,8 +5,9 @@ $(document).ready(function(){
 	// var nightTime = false;
 
 	//expand and contract bars
-	$('.letter .hbar').mouseover(function(){
+	$('.letter').mouseover(function(){
 		if (!$('body').hasClass('nightskyBody')) {
+			$(this).toggleClass("[class^='width']");
 			var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
 			var time = Math.floor(Math.random() * 300) + 500;
 			var time2 = Math.floor(Math.random() * 300) + 600; 
@@ -16,12 +17,14 @@ $(document).ready(function(){
 
 	$('.letter .vbar').mouseover(function(){
 		if (!$('body').hasClass('nightskyBody')) {
+			$(this).toggleClass("[class^='width']");
 			var randomH = Math.floor(Math.random() * 150) + 10 + '%'; 
 			var time3 = Math.floor(Math.random() * 300) + 500; 
 			var time4 = Math.floor(Math.random() * 300) + 500; 
 			$(this).animate({height: randomH,}, time3).animate({height: "10%",}, time4);
 		}
 	});
+
 	// end
 
 	// 	//expand and contract bars

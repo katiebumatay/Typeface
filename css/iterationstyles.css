@@ -127,91 +127,91 @@ div {
 }
 
 /******* B ******/
-#b div.vbar:nth-child(1) {
+#b1 {
 	top: 0%;
 	left: 10%;
 }
 
-#b div.vbar:nth-child(2) {
+#b2 {
 	top: 10%;
 	left: 68%;
 }
 
-#b div.vbar:nth-child(3) {
+#b3 {
 	top: 50%;
 	left: 70%;
 }
 
-#b div.hbar:nth-child(4) {
+#b4 {
 	top: 0%;
 	left: 30%;
 }
 
-#b div.hbar:nth-child(5) {
+#b5 {
 	top: 40%;
 	left: 36%;
 }
 
-#b div.hbar:nth-child(6) {
+#b6 {
 	top: 90%;
 	left: 30%;
 }
 
 /******* C ******/
-#c div.vbar:nth-child(1) {
+#c1 {
 	top: 20%;
 	left: 10%;
 }
 
-#c div.hbar:nth-child(2) {
+#c2 {
 	top: 0%;
 	left: 30%;
 }
 
-#c div.hbar:nth-child(3) {
+#c3 {
 	top: 90%;
 	left: 30%;
 }
 
 
 /******* D ******/
-#d div.vbar:nth-child(1) {
+#d1 {
 	top: 0%;
 	left: 10%;
 }
 
-#d div.vbar:nth-child(2) {
+#d2 {
 	top: 20%;
 	left: 70%;
 }
 
-#d div.hbar:nth-child(3) {
+#d3 {
 	top: 0%;
 	left: 32%;
 }
 
-#d div.hbar:nth-child(4) {
+#d4 {
 	top: 90%;
 	left: 32%;
 }
 
 /******* E ******/
-#e div.vbar:nth-child(1) {
+#e1 {
 	top: 0%;
 	left: 10%;
 }
 
-#e div.hbar:nth-child(2) {
+#e2 {
 	top: 0%;
 	left: 36%;
 }
 
-#e div.hbar:nth-child(3) {
+#e3 {
 	top: 40%;
 	left: 36%;
 }
 
-#e div.hbar:nth-child(4) {
+#e4 {
 	top: 90%;
 	left: 36%;
 }
