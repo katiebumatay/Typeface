@@ -369,7 +369,7 @@ $(document).ready(function(){
 			$('#q2').hbarSet();
 			$('#q3').hbarSet();
 			$('#q4').vbarSet();
-			$('#q5').vbarSet();
+			$('#q5').hbarSet();
 		}
 	});
 
@@ -752,7 +752,7 @@ $(document).ready(function(){
 	});
 
 	//click to turn page into starry sky
-	$('.letter').dblclick(function() {
+	$('body').dblclick(function() {
 		$('.vbar, .hbar').toggleClass("barsToStars");
 		$('body').toggleClass('nightskyBody');
 		// nightTime = true;
@@ -780,11 +780,29 @@ $(document).ready(function(){
 		});
 	//end -- shoots in night mode correctly, but has delay on toggle and on shooting
 
-		// $('#a .hbar, #a .vbar').click(function(){
+		// $('#a').click(function(){
 		// 	if ($('body').hasClass('nightskyBody')) {
-		// 		$(this).toggleClass(".twinkle");
+		// 		$('#a .hbar, #a .vbar').toggleClass(".twinkle");
 		// 	}
 		// });
+
+
+	$.fn.fade = function() {
+		var fadeVal = Math.floor(Math.random()); 
+		var time = Math.floor(Math.random() * 500) + 500;
+		$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
+	}
+
+		$('#a').mouseenter(function(){
+			if ($('body').hasClass('nightskyBody')) {
+				$('#a1').fade();
+				$('#a2').fade();
+				$('#a3').fade();
+				$('#a4').fade();
+				$('#a5').fade();
+				$('#a6').fade();
+			}
+		});
 
 
 
@@ -856,7 +874,7 @@ $(document).ready(function(){
 			$('#q2').hbarSet();
 			$('#q3').hbarSet();
 			$('#q4').vbarSet();
-			$('#q5').vbarSet();
+			$('#q5').hbarSet();
 			$('#r1').vbarSet();
 			$('#r2').vbarSet();
 			$('#r3').vbarSet();
@@ -919,11 +937,11 @@ $(document).ready(function(){
 			$('#five3').hbarSet();
 			$('#five4').hbarSet();
 			$('#five5').hbarSet();
-			$('#six1').vbarAnimate();
-			$('#six2').vbarAnimate();
-			$('#six3').hbarAnimate();
-			$('#six4').hbarAnimate();
-			$('#six5').hbarAnimate();
+			$('#six1').vbarSet();
+			$('#six2').vbarSet();
+			$('#six3').hbarSet();
+			$('#six4').hbarSet();
+			$('#six5').hbarSet();
 			$('#seven1').hbarSet();
 			$('#seven2').hbarSet();
 			$('#seven3').hbarSet();
