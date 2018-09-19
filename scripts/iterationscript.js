@@ -3,25 +3,25 @@ console.log("hello");
 $(document).ready(function(){
 
 	$.fn.vbarAnimate = function() {
-		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
+		var randomW = Math.floor(Math.random() * 100) + 10+ '%'; 
 		var time = Math.floor(Math.random() * 300) + 500;
 		$(this).animate({width: randomW,}, time).animate({width: "10%",}, time);
 	}
 
 	$.fn.hbarAnimate = function() {
-		var randomH = Math.floor(Math.random() * 150) + 10+ '%'; 
+		var randomH = Math.floor(Math.random() * 100) + 10+ '%'; 
 		var time = Math.floor(Math.random() * 300) + 500;
 		$(this).animate({height: randomH,}, time).animate({height: "10%",}, time);
 	}
 
-		$.fn.vbarSet = function() {
-		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
+	$.fn.vbarSet = function() {
+		var randomW = Math.floor(Math.random() * 50) + 10+ '%'; 
 		var time = Math.floor(Math.random() * 300) + 500;
 		$(this).animate({width: randomW,}, time);
 	}
 
 	$.fn.hbarSet = function() {
-		var randomH = Math.floor(Math.random() * 150) + 10+ '%'; 
+		var randomH = Math.floor(Math.random() * 50) + 10+ '%'; 
 		var time = Math.floor(Math.random() * 300) + 500;
 		$(this).animate({height: randomH,}, time);
 	}
@@ -52,6 +52,10 @@ $(document).ready(function(){
 	// 	}
 	// });
 
+
+
+
+/***************** LETTER BAR ANIMATIONS **************/
 	$('#a').mouseenter(function(){
 		if (!$('body').hasClass('nightskyBody')) {
 			$('#a1').vbarAnimate();
@@ -62,7 +66,6 @@ $(document).ready(function(){
 			$('#a6').hbarAnimate();
 		}
 	});
-
 		$('#a').click(function(){
 		if (!$('body').hasClass('nightskyBody')) {
 			$('#a1').vbarSet();
@@ -71,9 +74,127 @@ $(document).ready(function(){
 			$('#a4').vbarSet();
 			$('#a5').vbarSet();
 			$('#a6').hbarSet();
-
 		}
 	});
+
+
+
+	$('#b').mouseenter(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#b1').vbarAnimate();
+			$('#b2').vbarAnimate();
+			$('#b3').vbarAnimate();
+			$('#b4').hbarAnimate();
+			$('#b5').hbarAnimate();
+			$('#b6').hbarAnimate();
+		}
+	});
+		$('#b').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#b1').vbarSet();
+			$('#b2').vbarSet();
+			$('#b3').vbarSet();
+			$('#b4').hbarSet();
+			$('#b5').hbarSet();
+			$('#b6').hbarSet();
+		}
+	});
+
+
+
+	$('#c').mouseenter(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#c1').vbarAnimate();
+			$('#c2').hbarAnimate();
+			$('#c3').hbarAnimate();
+		}
+	});
+		$('#c').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#c1').vbarSet();
+			$('#c2').hbarSet();
+			$('#c3').hbarSet();
+		}
+	});
+
+
+
+	$('#d').mouseenter(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#d1').vbarAnimate();
+			$('#d2').vbarAnimate();
+			$('#d3').hbarAnimate();
+			$('#d4').hbarAnimate();
+		}
+	});
+		$('#d').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#d1').vbarSet();
+			$('#d2').vbarSet();
+			$('#d3').hbarSet();
+			$('#d4').hbarSet();
+		}
+	});
+
+
+	$('#e').mouseenter(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#e1').vbarAnimate();
+			$('#e2').hbarAnimate();
+			$('#e3').hbarAnimate();
+			$('#e4').hbarAnimate();
+		}
+	});
+		$('#e').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#e1').vbarSet();
+			$('#e2').hbarSet();
+			$('#e3').hbarSet();
+			$('#e4').hbarSet();
+		}
+	});
+
+
+	$('#f').mouseenter(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#f1').vbarAnimate();
+			$('#f2').hbarAnimate();
+			$('#f3').hbarAnimate();
+		}
+	});
+		$('#f').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#f1').vbarSet();
+			$('#f2').hbarSet();
+			$('#f3').hbarSet();
+		}
+	});
+
+
+
+
+	// 	$('#a').mouseenter(function(){
+	// 	if (!$('body').hasClass('nightskyBody')) {
+	// 		$('#a1').hbarAnimate();
+	// 		$('#a2').hbarAnimate();
+	// 		$('#a3').hbarAnimate();
+	// 		$('#a4').hbarAnimate();
+	// 		$('#a5').hbarAnimate();
+	// 		$('#a6').vbarAnimate();
+	// 	}
+	// });
+
+	// 	$('#a').click(function(){
+	// 	if (!$('body').hasClass('nightskyBody')) {
+	// 		$('#a1').hbarSet();
+	// 		$('#a2').hbarSet();
+	// 		$('#a3').hbarSet();
+	// 		$('#a4').hbarSet();
+	// 		$('#a5').hbarSet();
+	// 		$('#a6').vbarSet();
+
+	// 	}
+	// });
 	// $('#a').mouseover(function(){
 	// 	if (!$('body').hasClass('nightskyBody')) {
 	// 		$(this).toggleClass("[class^='width']");
