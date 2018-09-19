@@ -1,5 +1,8 @@
 body {
 	background-color: #b2d2f4;
+	margin: 5%;
+	padding: 0;
+	height: 100vh;
 }
 
 div {
@@ -14,20 +17,23 @@ div {
 }
 
 .container {
+	margin: 5vw;
 	box-sizing: border-box;
-	margin-top: 20%;
+/*	margin-top: 20%;*/
 	position: absolute;
   	overflow-x: auto;
   	white-space: nowrap;
-  	height: 50%;
-  	width: 20000px;
+  	height: 100vh;
+  	width: 90vw;
+  	/*width: 20000px;*/
 }
 
 .letter {
 	display: inline-block;
 	position: relative;
 	box-sizing: content-box;
-	margin: 20px;
+	margin-top: 2%;
+	margin-left: -1.5%;
 	height: 100px;
 	width: 100px;
 /*	background-color: gray;*/
@@ -208,38 +214,38 @@ div {
 /******* E ******/
 #e1 {
 	top: 0%;
-	left: 10%;
+	left: 18%;
 }
 
 #e2 {
 	top: 0%;
-	left: 36%;
+	left: 44%;
 }
 
 #e3 {
 	top: 40%;
-	left: 36%;
+	left: 44%;
 }
 
 #e4 {
 	top: 90%;
-	left: 36%;
+	left: 44%;
 }
 
 /******* F ******/
 #f div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 18%;
 }
 
 #f div.hbar:nth-child(2) {
 	top: 0%;
-	left: 36%;
+	left: 44%;
 }
 
 #f div.hbar:nth-child(3) {
 	top: 40%;
-	left: 36%;
+	left: 44%;
 }
 
 /******* G ******/
@@ -271,33 +277,33 @@ div {
 /******* H ******/
 #h div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 14%;
 }
 
 #h div.vbar:nth-child(2) {
 	top: 0%;
-	left: 70%;
+	left: 74%;
 }
 
 #h div.hbar:nth-child(3) {
 	top: 40%;
-	left: 30%;
+	left: 34%;
 }
 
 /******* I ******/
 #i div.vbar:nth-child(1) {
 	top: 20%;
-	left: 40%;
+	left: 46%;
 }
 
 #i div.hbar:nth-child(2) {
 	top: 0%;
-	left: 30%;
+	left: 36%;
 }
 
 #i div.hbar:nth-child(3) {
 	top: 90%;
-	left: 30%;
+	left: 36%;
 }
 
 /******* J ******/
@@ -344,12 +350,12 @@ div {
 /******* L ******/
 #l div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 18%;
 }
 
 #l div.hbar:nth-child(2) {
 	top: 90%;
-	left: 36%;
+	left: 44%;
 }
 
 /******* M ******/
@@ -414,23 +420,23 @@ div {
 /******* P ******/
 #p div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 14%;
 }
 
 #p div.vbar:nth-child(2) {
 	top: 20%;
-	left: 65%;
+	left: 68%;
 }
 
 
 #p div.hbar:nth-child(3) {
 	top: 0%;
-	left: 30%;
+	left: 34%;
 }
 
 #p div.hbar:nth-child(4) {
 	top: 50%;
-	left: 30%;
+	left: 34%;
 }
 
 /******* Q ******/
@@ -462,27 +468,27 @@ div {
 /******* R ******/
 #r div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 14%;
 }
 
 #r div.vbar:nth-child(2) {
 	top: 15%;
-	left: 65%;
+	left: 66%;
 }
 
 #r div.vbar:nth-child(3) {
 	top: 60%;
-	left: 65%;
+	left: 68%;
 }
 
 #r div.hbar:nth-child(4) {
 	top: 0%;
-	left: 30%;
+	left: 34%;
 }
 
 #r div.hbar:nth-child(5) {
 	top: 45%;
-	left: 35%;
+	left: 39%;
 }
 
 /******* S ******/
@@ -589,43 +595,43 @@ div {
 /******* X ******/
 #x div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 12%;
 }
 
 #x div.vbar:nth-child(2) {
 	top: 0%;
-	left: 68%;
+	left: 70%;
 }
 
 #x div.vbar:nth-child(3) {
 	top: 40%;
-	left: 39%;
+	left: 41%;
 }
 
 #x div.vbar:nth-child(4) {
 	top: 60%;
-	left: 68%;
+	left: 70%;
 }
 
 #x div.vbar:nth-child(5) {
 	top: 60%;
-	left: 10%;
+	left: 12%;
 }
 
 /******* Y ******/
 #y div.vbar:nth-child(1) {
 	top: 0%;
-	left: 10%;
+	left: 14%;
 }
 
 #y div.vbar:nth-child(2) {
 	top: 0%;
-	left: 66%;
+	left: 70%;
 }
 
 #y div.vbar:nth-child(3) {
 	top: 50%;
-	left: 38%;
+	left: 42%;
 }
 
 /******* Z ******/
@@ -683,17 +689,17 @@ div {
 /******* one ******/
 #one div.vbar:nth-child(1) {
 	top: 0%;
-	left: 40%;
+	left: 48%;
 }
 
 #one div.hbar:nth-child(2) {
 	top: 10%;
-	left: 20%;
+	left: 28%;
 }
 
 #one div.hbar:nth-child(3) {
 	top: 90%;
-	left: 20%;
+	left: 28%;
 }
 
 /******* two ******/
@@ -896,10 +902,9 @@ div {
 
 
 /******** effects ********/
-
+/*
 .nightskyBody {
 	background-color: #141835;
-/*	transition: 3s;  makes the stars shoot with this too */
 }
 
 .barsToStars  {
@@ -907,9 +912,8 @@ div {
 	width: 10% !important;
 	height: 10% !important;
 	transform: rotate(45deg);
-/*	transition: 3s;  makes the stars shoot with this too */
 	background-color: white;
-}
+}*/
 
 /*.twinkle {
 	transform: rotate(180deg) !important;

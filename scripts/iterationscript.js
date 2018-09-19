@@ -360,7 +360,7 @@ $(document).ready(function(){
 			$('#q2').hbarAnimate();
 			$('#q3').hbarAnimate();
 			$('#q4').vbarAnimate();
-			$('#q5').vbarAnimate();
+			$('#q5').hbarAnimate();
 		}
 	});
 		$('#q').click(function(){
@@ -751,33 +751,33 @@ $(document).ready(function(){
 		}
 	});
 
-	//click to turn page into starry sky
-	$('body').dblclick(function() {
-		$('.vbar, .hbar').toggleClass("barsToStars");
-		$('body').toggleClass('nightskyBody');
-		// nightTime = true;
-	});
-	//end
+	// //click to turn page into starry sky
+	// $('body').dblclick(function() {
+	// 	$('.vbar, .hbar').toggleClass("barsToStars");
+	// 	$('body').toggleClass('nightskyBody');
+	// 	// nightTime = true;
+	// });
+	// //end
 
-		//make stars shoot away
-		$('.letter .hbar').mouseover(function(){
-			if ($('body').hasClass('nightskyBody')) {
-				// $(this).animate({width: '150%',}, 200);
-				var goLeft = Math.floor(Math.random() * 300) + 500; 
-				var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
-				var time1 = Math.floor(Math.random() * 300) + 200;
-				$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
-			}
-		});
+		// //make stars shoot away
+		// $('.letter .hbar').mouseover(function(){
+		// 	if ($('body').hasClass('nightskyBody')) {
+		// 		// $(this).animate({width: '150%',}, 200);
+		// 		var goLeft = Math.floor(Math.random() * 300) + 500; 
+		// 		var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
+		// 		var time1 = Math.floor(Math.random() * 300) + 200;
+		// 		$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
+		// 	}
+		// });
 
-		$('.letter .vbar').mouseover(function(){
-			if ($('body').hasClass('nightskyBody')) {
-				var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
-				var goDown = (Math.floor(Math.random() * 300) + 500);
-				var time2 = Math.floor(Math.random() * 300) + 200;
-				$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
-			}
-		});
+		// $('.letter .vbar').mouseover(function(){
+		// 	if ($('body').hasClass('nightskyBody')) {
+		// 		var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
+		// 		var goDown = (Math.floor(Math.random() * 300) + 500);
+		// 		var time2 = Math.floor(Math.random() * 300) + 200;
+		// 		$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
+		// 	}
+		// });
 	//end -- shoots in night mode correctly, but has delay on toggle and on shooting
 
 		// $('#a').click(function(){
@@ -787,22 +787,22 @@ $(document).ready(function(){
 		// });
 
 
-	$.fn.fade = function() {
-		var fadeVal = Math.floor(Math.random()); 
-		var time = Math.floor(Math.random() * 500) + 500;
-		$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
-	}
+	// $.fn.fade = function() {
+	// 	var fadeVal = Math.floor(Math.random()); 
+	// 	var time = Math.floor(Math.random() * 500) + 500;
+	// 	$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
+	// }
 
-		$('#a').mouseenter(function(){
-			if ($('body').hasClass('nightskyBody')) {
-				$('#a1').fade();
-				$('#a2').fade();
-				$('#a3').fade();
-				$('#a4').fade();
-				$('#a5').fade();
-				$('#a6').fade();
-			}
-		});
+	// 	$('#a').mouseenter(function(){
+	// 		if ($('body').hasClass('nightskyBody')) {
+	// 			$('#a1').fade();
+	// 			$('#a2').fade();
+	// 			$('#a3').fade();
+	// 			$('#a4').fade();
+	// 			$('#a5').fade();
+	// 			$('#a6').fade();
+	// 		}
+	// 	});
 
 
 
