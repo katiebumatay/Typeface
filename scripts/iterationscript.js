@@ -5,7 +5,7 @@ $(document).ready(function(){
 	// var nightTime = false;
 
 	//expand and contract bars
-	$('.letter').mouseover(function(){
+	$('.letter .hbar').mouseover(function(){
 		if (!$('body').hasClass('nightskyBody')) {
 			$(this).toggleClass("[class^='width']");
 			var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
