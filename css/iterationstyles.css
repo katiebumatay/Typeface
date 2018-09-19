@@ -26,18 +26,7 @@ div {
 	overflow-x: hidden;*/
 }
 
-.letterFull {
-	display: inline-block;
-	position: relative;
-	box-sizing: content-box;
-	margin: 100px 50px 100px 50px;
-	height: 300px;
-	width: 300px;
-/*	background-color: gray;*/
-	float: left;
-/*	overflow-y: hidden;
-	overflow-x: hidden;*/
-}
+
 
 .vbar {
 	position: absolute; /**can overlap**/
@@ -68,102 +57,71 @@ div {
 	/*margin: 20%;*/
 }
 
-#length10 {height: 100%;}
+.length10 {height: 100%;}
 
-#length8 {height: 80%;}
+.length8 {height: 80%;}
 
-#length7 {height: 70%;}
+.length7 {height: 70%;}
 
-#length6 {height: 60%;}
+.length6 {height: 60%;}
 
-#length5 {height: 50%;}
+.length5 {height: 50%;}
 
-#length4 {height: 40%;}
+.length4 {height: 40%;}
 
-#length3 {height: 30%;}
+.length3 {height: 30%;}
 
-#length2 {height: 20%;}
+.length2 {height: 20%;}
 
-#length1 {height: 10%;}
+.length1 {height: 10%;}
 
 
-#width8 {width: 80%;}
+.width8 {width: 80%;}
 
-#width7 {width: 70%;}
+.width7 {width: 70%;}
 
-#width6 {width: 60%;}
+.width6 {width: 60%;}
 
-#width5 {width: 50%;}
+.width5 {width: 50%;}
 
-#width4 {width: 40%;}
+.width4 {width: 40%;}
 
-#width3 {width: 30%;}
+.width3 {width: 30%;}
 
-#width2 {width: 20%;}
+.width2 {width: 20%;}
 
-#width1 {width: 10%;}
+.width1 {width: 10%;}
 
 
 
 /******* A ******/
 
-#a div.vbar:nth-child(1) {
+#a1 {
 	top: 50%;
 	left: 10%;
 }
 
-#a div.vbar:nth-child(2) {
+#a2 {
 	top: 50%;
 	left: 70%;
 }
 
-#a div.vbar:nth-child(3) {
+#a3 {
 	top: 20%;
 	left: 20%;
 }
 
-#a div.vbar:nth-child(4) {
+#a4 {
 	top: 20%;
 	left: 60%;
 }
 
-#a div.vbar:nth-child(5) {
+#a5 {
 	top: 0%;
 	left: 40%;
 }
 
-#a div.hbar:nth-child(6) {
-	top: 50%;
-	left: 30%;
-}
-
-/******* A Full ******/
-.letterFull#a div.vbar:nth-child(1) {
-	top: 50%;
-	left: 10%;
-}
-
-.letterFull#a div.vbar:nth-child(2) {
-	top: 50%;
-	left: 70%;
-}
-
-.letterFull#a div.vbar:nth-child(3) {
-	top: 20%;
-	left: 20%;
-}
-
-.letterFull#a div.vbar:nth-child(4) {
-	top: 20%;
-	left: 60%;
-}
-
-.letterFull#a div.vbar:nth-child(5) {
-	top: 0%;
-	left: 40%;
-}
-
-.letterFull#a div.hbar:nth-child(6) {
+#a6 {
 	top: 50%;
 	left: 30%;
 }
