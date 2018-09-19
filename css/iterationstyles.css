@@ -41,6 +41,8 @@ div {
 
 .vbar {
 	position: absolute; /**can overlap**/
+	/*box-sizing: content-box;*/
+	box-sizing: border-box;
 	background: black;
 	width: 10%;
 	height: 10%;
@@ -48,17 +50,22 @@ div {
 	left:0%;
 	background-color: #fffde8;
 	/*padding: 5%;*/
+	/*margin: 20%;*/
+
 }
 
 .hbar {
 	position: absolute; /**can overlap**/
 	background: black;
+	/*box-sizing: content-box;*/
+	box-sizing: border-box;;
 	width: 10%;
 	height: 10%;
 	top:0%;
 	left:0%;
 	background-color: #fffde8;
 	/*padding: 5%;*/
+	/*margin: 20%;*/
 }
 
 #length10 {height: 100%;}
@@ -96,7 +103,10 @@ div {
 
 #width1 {width: 10%;}
 
+
+
 /******* A ******/
+
 #a div.vbar:nth-child(1) {
 	top: 50%;
 	left: 10%;
@@ -520,7 +530,7 @@ div {
 
 #s div.vbar:nth-child(3) {
 	top: 40%;
-	left: 50%;
+	left: 48%;
 }
 
 #s div.vbar:nth-child(4) {

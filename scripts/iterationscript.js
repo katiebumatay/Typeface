@@ -6,26 +6,49 @@ $(document).ready(function(){
 
 	//expand and contract bars
 	$('.letter .hbar').mouseover(function(){
-		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
-		var time = Math.floor(Math.random() * 300) + 500;
-		var time2 = Math.floor(Math.random() * 300) + 600; 
-		$(this).animate({width: randomW,}, time).animate({width: "10%",}, time2);
+		if (!$('body').hasClass('nightskyBody')) {
+			var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
+			var time = Math.floor(Math.random() * 300) + 500;
+			var time2 = Math.floor(Math.random() * 300) + 600; 
+			$(this).animate({width: randomW,}, time).animate({width: "10%",}, time2);
+		}
 	});
+
 	$('.letter .vbar').mouseover(function(){
-		var randomH = Math.floor(Math.random() * 150) + 10 + '%'; 
-		var time3 = Math.floor(Math.random() * 300) + 500; 
-		var time4 = Math.floor(Math.random() * 300) + 500; 
-		$(this).animate({height: randomH,}, time3).animate({height: "10%",}, time4);
+		if (!$('body').hasClass('nightskyBody')) {
+			var randomH = Math.floor(Math.random() * 150) + 10 + '%'; 
+			var time3 = Math.floor(Math.random() * 300) + 500; 
+			var time4 = Math.floor(Math.random() * 300) + 500; 
+			$(this).animate({height: randomH,}, time3).animate({height: "10%",}, time4);
+		}
 	});
-	//end
+	// end
+
+	// 	//expand and contract bars
+	// $('.letter .hbar').mouseover(function(){
+	// 	var currentW = parseInt(this.style.width);
+	// 	var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
+	// 	var time = Math.floor(Math.random() * 300) + 500;
+	// 	var time2 = Math.floor(Math.random() * 300) + 600; 
+	// 	$(this).animate({width: randomW,}, time).animate({width: currentW,}, time2);
+	// 	// $(this).animate({width: randomW,}, time).animate({width: "10%",}, time2).animate({width: currentW,}, time1);
+
+	// });
+	// $('.letter .vbar').mouseover(function(){
+	// 	var randomH = Math.floor(Math.random() * 150) + 10 + '%'; 
+	// 	var time3 = Math.floor(Math.random() * 300) + 500; 
+	// 	var time4 = Math.floor(Math.random() * 300) + 500; 
+	// 	$(this).animate({height: randomH,}, time3).animate({height: "10%",}, time4);
+	// });
+	// //end
 
 
 // //reload form
 // $(document).ready(function(){
 
-// 	$('.letter').click(function(){
-// 		$('.letter').load(" .letter");
-// 	});
+	$('#b').click(function(){
+		$('#b').load("iteration.html #b");
+	});
 // });
 
 // $(document).ready(function(){
