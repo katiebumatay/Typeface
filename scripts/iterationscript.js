@@ -780,12 +780,167 @@ $(document).ready(function(){
 		});
 	//end -- shoots in night mode correctly, but has delay on toggle and on shooting
 
-	// $('.letter #a').click(function() {
-	// 	$(this).toggleClass('.letterFull #a');
-	// }
+		// $('#a .hbar, #a .vbar').click(function(){
+		// 	if ($('body').hasClass('nightskyBody')) {
+		// 		$(this).toggleClass(".twinkle");
+		// 	}
+		// });
 
-	$('.letter #a').click(function() {
-		$(this).toggleClass(".letterFull #a");
+
+
+	$('.button').click(function(){
+		if (!$('body').hasClass('nightskyBody')) {
+			$('#a1').vbarSet();
+			$('#a2').vbarSet();
+			$('#a3').vbarSet();
+			$('#a4').vbarSet();
+			$('#a5').vbarSet();
+			$('#a6').hbarSet();
+			$('#b1').vbarSet();
+			$('#b2').vbarSet();
+			$('#b3').vbarSet();
+			$('#b4').hbarSet();
+			$('#b5').hbarSet();
+			$('#b6').hbarSet();
+			$('#c1').vbarSet();
+			$('#c2').hbarSet();
+			$('#c3').hbarSet();
+			$('#d1').vbarSet();
+			$('#d2').vbarSet();
+			$('#d3').hbarSet();
+			$('#d4').hbarSet();
+			$('#e1').vbarSet();
+			$('#e2').hbarSet();
+			$('#e3').hbarSet();
+			$('#e4').hbarSet();
+			$('#f1').vbarSet();
+			$('#f2').hbarSet();
+			$('#f3').hbarSet();
+			$('#g1').vbarSet();
+			$('#g2').hbarSet();
+			$('#g3').hbarSet();
+			$('#g4').hbarSet();
+			$('#g5').hbarSet();
+			$('#h1').vbarSet();
+			$('#h2').vbarSet();
+			$('#h3').hbarSet();
+			$('#i1').vbarSet();
+			$('#i2').hbarSet();
+			$('#i3').hbarSet();
+			$('#j1').vbarSet();
+			$('#j2').hbarSet();
+			$('#j3').hbarSet();
+			$('#j4').hbarSet();
+			$('#k1').vbarSet();
+			$('#k2').vbarSet();
+			$('#k3').vbarSet();
+			$('#k4').vbarSet();
+			$('#l1').vbarSet();
+			$('#l2').hbarSet();
+			$('#m1').vbarSet();
+			$('#m2').vbarSet();
+			$('#m3').vbarSet();
+			$('#n1').vbarSet();
+			$('#n2').vbarSet();
+			$('#n3').vbarSet();
+			$('#n4').vbarSet();
+			$('#o1').vbarSet();
+			$('#o2').hbarSet();
+			$('#o3').hbarSet();
+			$('#o4').vbarSet();
+			$('#p1').vbarSet();
+			$('#p2').vbarSet();
+			$('#p3').hbarSet();
+			$('#p4').hbarSet();
+			$('#q1').vbarSet();
+			$('#q2').hbarSet();
+			$('#q3').hbarSet();
+			$('#q4').vbarSet();
+			$('#q5').vbarSet();
+			$('#r1').vbarSet();
+			$('#r2').vbarSet();
+			$('#r3').vbarSet();
+			$('#r4').hbarSet();
+			$('#r5').hbarSet();
+			$('#s1').hbarSet();
+			$('#s2').vbarSet();
+			$('#s3').vbarSet();
+			$('#s4').vbarSet();
+			$('#s5').hbarSet();
+			$('#t1').vbarSet();
+			$('#t2').hbarSet();
+			$('#t3').hbarSet();
+			$('#u1').vbarSet();
+			$('#u2').vbarSet();
+			$('#u3').hbarSet();
+			$('#v1').vbarSet();
+			$('#v2').vbarSet();
+			$('#v3').vbarSet();
+			$('#v4').vbarSet();
+			$('#v5').vbarSet();
+			$('#w1').vbarSet();
+			$('#w2').vbarSet();
+			$('#w3').vbarSet();
+			$('#x1').vbarSet();
+			$('#x2').vbarSet();
+			$('#x3').vbarSet();
+			$('#x4').vbarSet();
+			$('#x5').vbarSet();
+			$('#y1').vbarSet();
+			$('#y2').vbarSet();
+			$('#y3').vbarSet();
+			$('#z1').hbarSet();
+			$('#z2').hbarSet();
+			$('#z3').hbarSet();
+			$('#z4').hbarSet();
+			$('#zero1').vbarSet();
+			$('#zero2').hbarSet();
+			$('#zero3').hbarSet();
+			$('#zero4').vbarSet();
+			$('#zero5').hbarSet();
+			$('#zero6').hbarSet();
+			$('#one1').vbarSet();
+			$('#one2').hbarSet();
+			$('#one3').hbarSet();
+			$('#two1').hbarSet();
+			$('#two2').vbarSet();
+			$('#two3').hbarSet();
+			$('#two4').hbarSet();
+			$('#three1').vbarSet();
+			$('#three2').vbarSet();
+			$('#three3').hbarSet();
+			$('#three4').hbarSet();
+			$('#three5').hbarSet();
+			$('#four1').vbarSet();
+			$('#four2').vbarSet();
+			$('#four3').hbarSet();
+			$('#five1').vbarSet();
+			$('#five2').vbarSet();
+			$('#five3').hbarSet();
+			$('#five4').hbarSet();
+			$('#five5').hbarSet();
+			$('#six1').vbarAnimate();
+			$('#six2').vbarAnimate();
+			$('#six3').hbarAnimate();
+			$('#six4').hbarAnimate();
+			$('#six5').hbarAnimate();
+			$('#seven1').hbarSet();
+			$('#seven2').hbarSet();
+			$('#seven3').hbarSet();
+			$('#seven4').vbarSet();
+			$('#eight1').vbarSet();
+			$('#eight2').vbarSet();
+			$('#eight3').vbarSet();
+			$('#eight4').vbarSet();
+			$('#eight5').hbarSet();
+			$('#eight6').hbarSet();
+			$('#eight7').hbarSet();
+			$('#nine1').vbarSet();
+			$('#nine2').vbarSet();
+			$('#nine3').hbarSet();
+			$('#nine4').hbarSet();
+			$('#nine5').hbarSet();
+		}
 	});
 
 
