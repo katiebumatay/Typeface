@@ -1,7 +1,9 @@
 body {
 	background-color: #b2d2f4;
-	margin: 5%;
-	padding: 0;
+	/*margin: 5%;*/
+	padding: 5%;
+/*	margin: 0;
+	padding: 0;*/
 	height: 100vh;
 }
 
@@ -14,6 +16,8 @@ div {
 	width: 50px;
 	background-color: #659bf2;
 	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 
 .container {
@@ -34,8 +38,10 @@ div {
 	box-sizing: content-box;
 	margin-top: 2%;
 	margin-left: -1.5%;
-	height: 100px;
-	width: 100px;
+/*	height: 120px;
+	width: 120px;*/
+	height: 11vw;
+	width: 11vw;
 /*	background-color: gray;*/
 	float: left;
 /*	overflow-y: hidden;
