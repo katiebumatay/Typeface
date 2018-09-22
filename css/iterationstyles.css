@@ -32,6 +32,22 @@ div {
   	/*width: 20000px;*/
 }
 
+.spacing {
+	width: 100vw;
+	height: 400px;
+	position: relative;
+}
+
+.title {
+	margin-top: 50vw;
+	margin: 5vw;
+	box-sizing: border-box;
+/*	margin-top: 20%;*/
+	position: relative;
+  	width: 90vw;
+  	/*width: 20000px;*/
+}
+
 .letter {
 	display: inline-block;
 	position: relative;
