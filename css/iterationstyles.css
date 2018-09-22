@@ -916,40 +916,55 @@ div {
 
 /************ TITLE *********/
 
-#m1 {
+#m1Title1 {
 	top: 0%;
 	left: 10%;
 }
 
-#m2 {
+#m2Title1 {
 	top: 15%;
 	left: 45%;
 }
 
 
-#m3 {
+#m3Title1 {
 	top: 0%;
 	left: 80%;
 }
 
-#e1 {
+#e1Title {
 	top: 0%;
 	left: 18%;
 }
 
-#e2 {
+#e2Title {
 	top: 0%;
 	left: 44%;
 }
 
-#e3 {
+#e3Title {
 	top: 40%;
 	left: 44%;
 }
 
-#e4 {
+#e4Title {
 	top: 90%;
 	left: 44%;
+}
+
+#t1Title {
+	top: 0%;
+	left: 40%;
+}
+
+#t2Title {
+	top: 0%;
+	left: 10%;
+}
+
+#t3Title {
+	top: 0%;
+	left: 60%;
 }
 
 #a1Title {
@@ -982,6 +997,102 @@ div {
 	left: 30%;
 }
 
+#m1Title2 {
+	top: 0%;
+	left: 10%;
+}
+
+#m2Title2 {
+	top: 15%;
+	left: 45%;
+}
+
+
+#m3Title2 {
+	top: 0%;
+	left: 80%;
+}
+
+#o1Title {
+	top: 20%;
+	left: 10%;
+}
+
+#o2Title {
+	top: 0%;
+	left: 30%;
+}
+
+#o3Title {
+	top: 90%;
+	left: 30%;
+}
+
+#o4Title {
+	top: 20%;
+	left: 80%;
+}
+
+#r1Title {
+	top: 0%;
+	left: 14%;
+}
+
+#r2Title {
+	top: 15%;
+	left: 66%;
+}
+
+#r3Title {
+	top: 60%;
+	left: 68%;
+}
+
+#r4Title {
+	top: 0%;
+	left: 34%;
+}
+
+#r5Title {
+	top: 45%;
+	left: 39%;
+}
+
+#p1Title {
+	top: 0%;
+	left: 14%;
+}
+
+#p2Title {
+	top: 20%;
+	left: 68%;
+}
+
+
+#p3Title {
+	top: 0%;
+	left: 34%;
+}
+
+#p4Title {
+	top: 50%;
+	left: 34%;
+}
+
+#h1Title {
+	top: 0%;
+	left: 14%;
+}
+
+#h2Title {
+	top: 0%;
+	left: 74%;
+}
+
+#h3Title {
+	top: 40%;
+	left: 34%;
+}
 
 /******** effects ********/
 /*
