@@ -30,14 +30,37 @@ div {
   	width: 90vw;
 }*/
 
-.titleBox {
+.titleBox1 {
+	margin-top: 150vh;
+	margin-bottom: 50vh;
+	box-sizing: border-box;
+/*	margin-top: 20%;*/
+	position: relative;
+  	width: 58vw;
+  	white-space: nowrap;
+  	/*width: 20000px;*/
+}
+
+.titleBox2 {
 	margin-top: 150vh;
 	margin-bottom: 50vh;
 	box-sizing: border-box;
 /*	margin-top: 20%;*/
 	position: relative;
   	width: 90vw;
+  	white-space: nowrap;
   	/*width: 20000px;*/
+}
+
+.letterTitle {
+	display: inline-block;
+	position: relative;
+	box-sizing: content-box;
+	margin-top: 4%;
+	margin-left: 1%;
+	height: 15vw;
+	width: 15vw;
+	float: left;
 }
 
 .letter {
@@ -46,14 +69,9 @@ div {
 	box-sizing: content-box;
 	margin-top: 2%;
 	margin-left: -1.5%;
-/*	height: 120px;
-	width: 120px;*/
 	height: 11vw;
 	width: 11vw;
-/*	background-color: gray;*/
 	float: left;
-/*	overflow-y: hidden;
-	overflow-x: hidden;*/
 }
 
 
@@ -1092,6 +1110,42 @@ div {
 #h3Title {
 	top: 40%;
 	left: 34%;
+}
+
+#mTitle1 {
+	margin-left: 0%;
+}
+
+#eTitle {
+	margin-left: 0%;
+}
+
+#tTitle {
+	margin-left: -2%;
+}
+
+#aTitle {
+	margin-left: -2%;
+}
+
+#mTitle2 {
+	margin-left: 0%;
+}
+
+#oTitle {
+	margin-left: 1.5%;
+}
+
+#rTitle {
+	margin-left: 0%;
+}
+
+#pTitle {
+	margin-left: 0%;
+}
+
+#hTitle {
+	margin-left: -1%;
 }
 
 /******** effects ********/

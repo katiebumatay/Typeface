@@ -609,118 +609,118 @@ $(document).ready(function(){
 
 	// TITLE SEQUENCE !!!!!
 	$('#mTitle1').mouseenter(function(){
-			$('#m1').vbarAnimate();
-			$('#m2').vbarAnimate();
-			$('#m3').vbarAnimate();
+			$('#m1Title1').vbarAnimate();
+			$('#m2Title1').vbarAnimate();
+			$('#m3Title1').vbarAnimate();
 	});
 	$('#mTitle1').click(function(){
-			$('#m1').vbarSet();
-			$('#m2').vbarSet();
-			$('#m3').vbarSet();
+			$('#m1Title1').vbarSet();
+			$('#m2Title1').vbarSet();
+			$('#m3Title1').vbarSet();
 	});
 
 	$('#eTitle').mouseenter(function(){
-			$('#e1').vbarAnimate();
-			$('#e2').hbarAnimate();
-			$('#e3').hbarAnimate();
-			$('#e4').hbarAnimate();
+			$('#e1Title').vbarAnimate();
+			$('#e2Title').hbarAnimate();
+			$('#e3Title').hbarAnimate();
+			$('#e4Title').hbarAnimate();
 	});
 	$('#eTitle').click(function(){
-			$('#e1').vbarSet();
-			$('#e2').hbarSet();
-			$('#e3').hbarSet();
-			$('#e4').hbarSet();
+			$('#e1Title').vbarSet();
+			$('#e2Title').hbarSet();
+			$('#e3Title').hbarSet();
+			$('#e4Title').hbarSet();
 	});
 
 	$('#tTitle').mouseenter(function(){
-			$('#t1').vbarAnimate();
-			$('#t2').hbarAnimate();
-			$('#t3').hbarAnimate();
+			$('#t1Title').vbarAnimate();
+			$('#t2Title').hbarAnimate();
+			$('#t3Title').hbarAnimate();
 	});
 	$('#tTitle').click(function(){
-			$('#t1').vbarSet();
-			$('#t2').hbarSet();
-			$('#t3').hbarSet();
+			$('#t1Title').vbarSet();
+			$('#t2Title').hbarSet();
+			$('#t3Title').hbarSet();
 	});
 
 	$('#aTitle').mouseenter(function(){
-			$('#a1').vbarAnimate();
-			$('#a2').vbarAnimate();
-			$('#a3').vbarAnimate();
-			$('#a4').vbarAnimate();
-			$('#a5').vbarAnimate();
-			$('#a6').hbarAnimate();
+			$('#a1Title').vbarAnimate();
+			$('#a2Title').vbarAnimate();
+			$('#a3Title').vbarAnimate();
+			$('#a4Title').vbarAnimate();
+			$('#a5Title').vbarAnimate();
+			$('#a6Title').hbarAnimate();
 	});
 	$('#aTitle').click(function(){
-			$('#a1').vbarSet();
-			$('#a2').vbarSet();
-			$('#a3').vbarSet();
-			$('#a4').vbarSet();
-			$('#a5').vbarSet();
-			$('#a6').hbarSet();
+			$('#a1Title').vbarSet();
+			$('#a2Title').vbarSet();
+			$('#a3Title').vbarSet();
+			$('#a4Title').vbarSet();
+			$('#a5Title').vbarSet();
+			$('#a6Title').hbarSet();
 	});
 
 	$('#mTitle2').mouseenter(function(){
-			$('#m1').vbarAnimate();
-			$('#m2').vbarAnimate();
-			$('#m3').vbarAnimate();
+			$('#m1Title2').vbarAnimate();
+			$('#m2Title2').vbarAnimate();
+			$('#m3Title2').vbarAnimate();
 	});
 	$('#mTitle2').click(function(){
-			$('#m1').vbarSet();
-			$('#m2').vbarSet();
-			$('#m3').vbarSet();
+			$('#m1Title2').vbarSet();
+			$('#m2Title2').vbarSet();
+			$('#m3Title2').vbarSet();
 	});
 
 	$('#oTitle').mouseenter(function(){
-			$('#o1').vbarAnimate();
-			$('#o2').hbarAnimate();
-			$('#o3').hbarAnimate();
-			$('#o4').vbarAnimate();
+			$('#o1Title').vbarAnimate();
+			$('#o2Title').hbarAnimate();
+			$('#o3Title').hbarAnimate();
+			$('#o4Title').vbarAnimate();
 	});
 	$('#oTitle').click(function(){
-			$('#o1').vbarSet();
-			$('#o2').hbarSet();
-			$('#o3').hbarSet();
-			$('#o4').vbarSet();
+			$('#o1Title').vbarSet();
+			$('#o2Title').hbarSet();
+			$('#o3Title').hbarSet();
+			$('#o4Title').vbarSet();
 	});
 
 	$('#rTitle').mouseenter(function(){
-			$('#r1').vbarAnimate();
-			$('#r2').vbarAnimate();
-			$('#r3').vbarAnimate();
-			$('#r4').hbarAnimate();
-			$('#r5').hbarAnimate();
+			$('#r1Title').vbarAnimate();
+			$('#r2Title').vbarAnimate();
+			$('#r3Title').vbarAnimate();
+			$('#r4Title').hbarAnimate();
+			$('#r5Title').hbarAnimate();
 	});
 	$('#rTitle').click(function(){
-			$('#r1').vbarSet();
-			$('#r2').vbarSet();
-			$('#r3').vbarSet();
-			$('#r4').hbarSet();
-			$('#r5').hbarSet();
+			$('#r1Title').vbarSet();
+			$('#r2Title').vbarSet();
+			$('#r3Title').vbarSet();
+			$('#r4Title').hbarSet();
+			$('#r5Title').hbarSet();
 	});
 
 	$('#pTitle').mouseenter(function(){
-			$('#p1').vbarAnimate();
-			$('#p2').vbarAnimate();
-			$('#p3').hbarAnimate();
-			$('#p4').hbarAnimate();
+			$('#p1Title').vbarAnimate();
+			$('#p2Title').vbarAnimate();
+			$('#p3Title').hbarAnimate();
+			$('#p4Title').hbarAnimate();
 	});
 	$('#pTitle').click(function(){
-			$('#p1').vbarSet();
-			$('#p2').vbarSet();
-			$('#p3').hbarSet();
-			$('#p4').hbarSet();
+			$('#p1Title').vbarSet();
+			$('#p2Title').vbarSet();
+			$('#p3Title').hbarSet();
+			$('#p4Title').hbarSet();
 	});
 
 	$('#hTitle').mouseenter(function(){
-			$('#h1').vbarAnimate();
-			$('#h2').vbarAnimate();
-			$('#h3').hbarAnimate();
+			$('#h1Title').vbarAnimate();
+			$('#h2Title').vbarAnimate();
+			$('#h3Title').hbarAnimate();
 	});
 	$('#hTitle').click(function(){
-			$('#h1').vbarSet();
-			$('#h2').vbarSet();
-			$('#h3').hbarSet();
+			$('#h1Title').vbarSet();
+			$('#h2Title').vbarSet();
+			$('#h3Title').hbarSet();
 	});
 
 	// //click to turn page into starry sky
