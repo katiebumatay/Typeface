@@ -12,8 +12,8 @@ div {
 }
 
 .button {
-	height: 50px;
-	width: 50px;
+	height: 100vh;
+	width: 30px;
 	background-color: #659bf2;
 	position: fixed;
 	bottom: 0;
@@ -30,26 +30,28 @@ div {
   	width: 90vw;
 }*/
 
-.titleBox1 {
-	margin-top: 150vh;
+.titleFull {
+	margin-top: 50vh;
 	margin-bottom: 50vh;
+	position: relative;
+	bottom: 0;
+	height: 50vh;
+	float: left;
+}
+
+.titleBox1 {
 	box-sizing: border-box;
-/*	margin-top: 20%;*/
 	position: relative;
   	width: 58vw;
-  	white-space: nowrap;
-  	/*width: 20000px;*/
+  	top: 0;
+  	float: left;
 }
 
 .titleBox2 {
-	margin-top: 150vh;
-	margin-bottom: 50vh;
 	box-sizing: border-box;
-/*	margin-top: 20%;*/
 	position: relative;
   	width: 90vw;
-  	white-space: nowrap;
-  	/*width: 20000px;*/
+  	float: left;
 }
 
 .letterTitle {
