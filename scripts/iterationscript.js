@@ -778,7 +778,7 @@ $(document).ready(function(){
 
 
 
-	$('.button').click(function(){
+	$('body').dblclick(function(){
 			$('#a1').vbarSet();
 			$('#a2').vbarSet();
 			$('#a3').vbarSet();

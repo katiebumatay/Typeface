@@ -1,10 +1,15 @@
 body {
 	background-color: #b2d2f4;
 	/*margin: 5%;*/
-	padding: 5%;
+/*	padding: 5%;*/
 /*	margin: 0;
 	padding: 0;*/
 	height: 100vh;
+	margin-left: 0%;
+	margin-top: -2.5%;
+	margin-right: -10%;
+	white-space: nowrap;
+	overflow-x: hidden;
 }
 
 div {
@@ -34,6 +39,7 @@ div {
 .titleFull {
 	margin-top: 50vh;
 	margin-bottom: 50vh;
+	margin-left: 5%;
 	position: relative;
 	bottom: 0;
 	height: 50vh;
@@ -72,8 +78,8 @@ div {
 	box-sizing: content-box;
 	margin-top: 2%;
 	margin-left: -1.5%;
-	height: 11vw;
-	width: 11vw;
+	height: 13vw;
+	width: 13vw;
 	float: left;
 }
 
