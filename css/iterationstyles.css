@@ -6,10 +6,10 @@ body {
 /*	margin: 0;
 	padding: 0;*/
 	height: 100vh;
-	margin-left: 0%;
+	width: 105vw;
+	margin-left: -0.25%;
 	margin-top: -2.5%;
-	margin-right: -12%;
-	white-space: nowrap;
+/*	margin-right: -11%;*/
 	overflow-x: hidden;
 }
 
@@ -87,11 +87,12 @@ div {
 	position: relative;
 	box-sizing: content-box;
 	margin-top: 2%;
-	margin-left: -1.5%;
+	margin-left: -1%;
 	height: 13vw;
 	width: 13vw;
 	float: left;
 }
+
 
 
 
@@ -871,7 +872,7 @@ div {
 /******* seven ******/
 #seven1 {
 	top: 0%;
-	left: 20%;
+	left: 10%;
 }
 
 #seven2 {
@@ -879,7 +880,7 @@ div {
 	left: 50%;
 }
 
-#seven3) {
+#seven3 {
 	top: 55%;
 	left: 30%;
 }
@@ -950,6 +951,53 @@ div {
 	top: 90%;
 	left: 30%;
 }
+
+/************* SPACING ***********/
+#e, #s, #y, #one, #three {
+	margin-right: -1.5%;
+}
+
+#f, #l, #j, #four {
+	margin-right: -1.25%;
+}
+
+#c, #d, #eight {
+	margin-right: -1%;
+}
+
+#p, #t, #x, #two, #five {
+	margin-right: -0.75%;
+}
+
+#k, #z {
+	margin-right: -0.5%
+}
+
+#u, #v {
+	margin-right: -0.25%
+}
+
+#n, #q {
+	margin-right: 0.25%;
+}
+
+#o {
+	margin-right: 0.5%
+}
+
+#m, #w {
+	margin-right: 1%;
+}
+
+#one, #i {
+	margin-left: -3.25%;
+}
+
+#j, #l, #s{
+	margin-left: -2.25%;
+}
+
+
 
 /************ TITLE *********/
 
