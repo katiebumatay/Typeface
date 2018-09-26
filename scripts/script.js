@@ -27,7 +27,35 @@ $(document).ready(function(){
 	}
 
 
-//***************** LETTER BAR ANIMATIONS **************//
+	// var nightTime = false;
+
+	//expand and contract bars
+	// $('#a').mouseover(function(){
+	// 		$(this).toggleClass("[class^='width']");
+	// 		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
+	// 		var time = Math.floor(Math.random() * 300) + 500;
+	// 		$('#a1').animate({width: randomW,}, time).animate({width: "10%",}, time);
+	// 		var randomW2 = Math.floor(Math.random() * 150) + 10+ '%'; 
+	// 		var time2 = Math.floor(Math.random() * 300) + 500;
+	// 		$('#a2').animate({width: randomW2,}, time2).animate({width: "10%",}, time2);
+	// 		var randomW3 = Math.floor(Math.random() * 150) + 10+ '%'; 
+	// 		var time3 = Math.floor(Math.random() * 300) + 500;
+	// 		$('#a3').animate({width: randomW3,}, time3).animate({width: "10%",}, time3);
+	// 		var randomW4 = Math.floor(Math.random() * 150) + 10+ '%'; 
+	// 		var time4 = Math.floor(Math.random() * 300) + 500;
+	// 		$('#a4').animate({width: randomW4,}, time4).animate({width: "10%",}, time4);
+	// 		var randomW5 = Math.floor(Math.random() * 150) + 10+ '%'; 
+	// 		var time5 = Math.floor(Math.random() * 300) + 500;
+	// 		$('#a5').animate({width: randomW5,}, time5).animate({width: "10%",}, time5);
+	// 		$('#a6').randomAnimate();
+
+	// 	}
+	// });
+
+
+
+
+/***************** LETTER BAR ANIMATIONS **************/
 	$('#a').mouseenter(function(){
 			$('#a1').vbarAnimate();
 			$('#a2').vbarAnimate();
@@ -44,6 +72,7 @@ $(document).ready(function(){
 			$('#a5').vbarSet();
 			$('#a6').hbarSet();
 	});
+
 
 
 	$('#b').mouseenter(function(){
@@ -64,6 +93,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#c').mouseenter(function(){
 			$('#c1').vbarAnimate();
 			$('#c2').hbarAnimate();
@@ -74,6 +104,7 @@ $(document).ready(function(){
 			$('#c2').hbarSet();
 			$('#c3').hbarSet();
 	});
+
 
 
 	$('#d').mouseenter(function(){
@@ -116,6 +147,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#g').mouseenter(function(){
 			$('#g1').vbarAnimate();
 			$('#g2').hbarAnimate();
@@ -132,6 +164,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#h').mouseenter(function(){
 			$('#h1').vbarAnimate();
 			$('#h2').vbarAnimate();
@@ -144,6 +177,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#i').mouseenter(function(){
 			$('#i1').vbarAnimate();
 			$('#i2').hbarAnimate();
@@ -154,6 +188,7 @@ $(document).ready(function(){
 			$('#i2').hbarSet();
 			$('#i3').hbarSet();
 	});
+
 
 
 	$('#j').mouseenter(function(){
@@ -184,6 +219,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#l').mouseenter(function(){
 			$('#l1').vbarAnimate();
 			$('#l2').hbarAnimate();
@@ -192,6 +228,7 @@ $(document).ready(function(){
 			$('#l1').vbarSet();
 			$('#l2').hbarSet();
 	});
+
 
 
 	$('#m').mouseenter(function(){
@@ -204,6 +241,7 @@ $(document).ready(function(){
 			$('#m2').vbarSet();
 			$('#m3').vbarSet();
 	});
+
 
 
 	$('#n').mouseenter(function(){
@@ -220,6 +258,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#o').mouseenter(function(){
 			$('#o1').vbarAnimate();
 			$('#o2').hbarAnimate();
@@ -234,6 +273,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#p').mouseenter(function(){
 			$('#p1').vbarAnimate();
 			$('#p2').vbarAnimate();
@@ -246,6 +286,7 @@ $(document).ready(function(){
 			$('#p3').hbarSet();
 			$('#p4').hbarSet();
 	});
+
 
 
 	$('#q').mouseenter(function(){
@@ -264,6 +305,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#r').mouseenter(function(){
 			$('#r1').vbarAnimate();
 			$('#r2').vbarAnimate();
@@ -278,6 +320,8 @@ $(document).ready(function(){
 			$('#r4').hbarSet();
 			$('#r5').hbarSet();
 	});
+
+
 
 
 	$('#s').mouseenter(function(){
@@ -296,6 +340,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#t').mouseenter(function(){
 			$('#t1').vbarAnimate();
 			$('#t2').hbarAnimate();
@@ -308,6 +353,8 @@ $(document).ready(function(){
 	});
 
 
+
+
 	$('#u').mouseenter(function(){
 			$('#u1').vbarAnimate();
 			$('#u2').vbarAnimate();
@@ -318,6 +365,7 @@ $(document).ready(function(){
 			$('#u2').vbarSet();
 			$('#u3').hbarSet();
 	});
+
 
 
 	$('#v').mouseenter(function(){
@@ -336,6 +384,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#w').mouseenter(function(){
 			$('#w1').vbarAnimate();
 			$('#w2').vbarAnimate();
@@ -346,6 +395,7 @@ $(document).ready(function(){
 			$('#w2').vbarSet();
 			$('#w3').vbarSet();
 	});
+
 
 
 	$('#x').mouseenter(function(){
@@ -364,6 +414,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#y').mouseenter(function(){
 			$('#y1').vbarAnimate();
 			$('#y2').vbarAnimate();
@@ -374,6 +425,8 @@ $(document).ready(function(){
 			$('#y2').vbarSet();
 			$('#y3').vbarSet();
 	});
+
+
 
 
 	$('#z').mouseenter(function(){
@@ -388,6 +441,7 @@ $(document).ready(function(){
 			$('#z3').hbarSet();
 			$('#z4').hbarSet();
 	});
+
 
 
 	$('#zero').mouseenter(function(){
@@ -408,6 +462,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#one').mouseenter(function(){
 			$('#one1').vbarAnimate();
 			$('#one2').hbarAnimate();
@@ -418,6 +473,7 @@ $(document).ready(function(){
 			$('#one2').hbarSet();
 			$('#one3').hbarSet();
 	});
+
 
 
 	$('#two').mouseenter(function(){
@@ -432,6 +488,7 @@ $(document).ready(function(){
 			$('#two3').hbarSet();
 			$('#two4').hbarSet();
 	});
+
 
 
 	$('#three').mouseenter(function(){
@@ -450,6 +507,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#four').mouseenter(function(){
 			$('#four1').vbarAnimate();
 			$('#four2').vbarAnimate();
@@ -460,6 +518,7 @@ $(document).ready(function(){
 			$('#four2').vbarSet();
 			$('#four3').hbarSet();
 	});
+
 
 
 	$('#five').mouseenter(function(){
@@ -478,6 +537,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#six').mouseenter(function(){
 			$('#six1').vbarAnimate();
 			$('#six2').vbarAnimate();
@@ -494,6 +554,7 @@ $(document).ready(function(){
 	});
 
 
+
 	$('#seven').mouseenter(function(){
 			$('#seven1').hbarAnimate();
 			$('#seven2').hbarAnimate();
@@ -506,6 +567,7 @@ $(document).ready(function(){
 			$('#seven3').hbarSet();
 			$('#seven4').vbarSet();
 	});
+
 
 
 	$('#eight').mouseenter(function(){
@@ -526,6 +588,7 @@ $(document).ready(function(){
 			$('#eight6').hbarSet();
 			$('#eight7').hbarSet();
 	});
+
 
 
 	$('#nine').mouseenter(function(){
@@ -660,8 +723,61 @@ $(document).ready(function(){
 			$('#h3Title').hbarSet();
 	});
 
+	// //click to turn page into starry sky
+	// $('body').dblclick(function() {
+	// 	$('.vbar, .hbar').toggleClass("barsToStars");
+	// 	$('body').toggleClass('nightskyBody');
+	// 	// nightTime = true;
+	// });
+	// //end
 
-//********** morph all on double click *********//
+		// //make stars shoot away
+		// $('.letter .hbar').mouseover(function(){
+		// 	if ($('body').hasClass('nightskyBody')) {
+		// 		// $(this).animate({width: '150%',}, 200);
+		// 		var goLeft = Math.floor(Math.random() * 300) + 500; 
+		// 		var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
+		// 		var time1 = Math.floor(Math.random() * 300) + 200;
+		// 		$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
+		// 	}
+		// });
+
+		// $('.letter .vbar').mouseover(function(){
+		// 	if ($('body').hasClass('nightskyBody')) {
+		// 		var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
+		// 		var goDown = (Math.floor(Math.random() * 300) + 500);
+		// 		var time2 = Math.floor(Math.random() * 300) + 200;
+		// 		$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
+		// 	}
+		// });
+	//end -- shoots in night mode correctly, but has delay on toggle and on shooting
+
+		// $('#a').click(function(){
+		// 	if ($('body').hasClass('nightskyBody')) {
+		// 		$('#a .hbar, #a .vbar').toggleClass(".twinkle");
+		// 	}
+		// });
+
+
+	// $.fn.fade = function() {
+	// 	var fadeVal = Math.floor(Math.random()); 
+	// 	var time = Math.floor(Math.random() * 500) + 500;
+	// 	$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
+	// }
+
+	// 	$('#a').mouseenter(function(){
+	// 		if ($('body').hasClass('nightskyBody')) {
+	// 			$('#a1').fade();
+	// 			$('#a2').fade();
+	// 			$('#a3').fade();
+	// 			$('#a4').fade();
+	// 			$('#a5').fade();
+	// 			$('#a6').fade();
+	// 		}
+	// 	});
+
+
+
 	$('body').dblclick(function(){
 			$('#a1').vbarSet();
 			$('#a2').vbarSet();
@@ -849,6 +965,13 @@ $(document).ready(function(){
 			$('#h1Title').vbarSet();
 			$('#h2Title').vbarSet();
 			$('#h3Title').hbarSet();
+
+
+
+
+
+
+
 
 	});
 
@@ -1053,11 +1176,24 @@ $(document).ready(function(){
 			$('#h3Title').hbarLoad();
 	});
 
+	// $(function(){
+ //    	alert("Hover, click, and double click to explore!");
+ //    	});
+ 		$(".trigger").mouseenter(function(){
+    		alert("Hover, click, and double click to explore!");
+    	});
 
-//********** alert for interaction info *********//
- 	$(".trigger").mouseenter(function(){
-    	alert("Hover, click, and double click to explore!");
-    });
+
+	// $.fn.fade = function() {
+	// 	var fadeVal = Math.floor(Math.random()); 
+	// 	var time = Math.floor(Math.random() * 500) + 500;
+	// 	$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
+	// }
+
+	// 	$('.letter').mouseenter(function(){
+	// 		$(this).fade();
+	// 	});
+
 
 
 });
