@@ -1,15 +1,9 @@
 body {
-/*	background-color: #b2d2f4;*/
 	background-color: #111111;
-	/*margin: 5%;*/
-/*	padding: 5%;*/
-/*	margin: 0;
-	padding: 0;*/
 	height: 100vh;
 	width: 105vw;
 	margin-left: -0.25%;
 	margin-top: -2.5%;
-/*	margin-right: -11%;*/
 	overflow-x: hidden;
 }
 
@@ -17,6 +11,7 @@ div {
 	display: block;
 }
 
+/***** invisible box to trigger interaction instructions *****/
 .trigger {
 	position: fixed;
 	top: 0;
@@ -26,44 +21,28 @@ div {
 	width: 100vw;
 }
 
+/********* typeface name and info **********/
 .colophon {
 	margin-top: 12%;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
 	position: relative;
-	color: #515151;
-	font-family: 'Libre Baskerville', serif;
 	float: left;
+	color: #515151;
+}
+
+.colophon p {
+	font-family: 'Libre Baskerville', serif;
 	font-size: 12px;
-	line-height: 10px;
+	line-height: 8px;
 }
 
 #name {
 	font-style: italic;
 }
 
-.button {
-	height: 100vh;
-	width: 30px;
-	background-color: #659bf2;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	cursor: pointer;
-}
-
-/*.container {
-	margin: 5vw;
-	box-sizing: border-box;
-	position: absolute;
-  	overflow-x: auto;
-  	white-space: nowrap;
-  	height: 100vh;
-  	width: 90vw;
-}*/
-
+/************ Metamorph title ***********/
 .titleFull {
 	padding-top: 80vh;
-	/*margin-bottom: 50vh;*/
 	margin-left: 5%;
 	position: relative;
 	bottom: 0;
@@ -97,6 +76,7 @@ div {
 	float: left;
 }
 
+/************* general alphabet letters ************/
 .letter {
 	display: inline-block;
 	position: relative;
@@ -109,35 +89,24 @@ div {
 }
 
 
-
-
 .vbar {
-	position: absolute; /**can overlap**/
-	/*box-sizing: content-box;*/
+	position: absolute;
 	box-sizing: border-box;
-	/*background: black;*/
 	width: 10%;
 	height: 10%;
 	top:0%;
 	left:0%;
-	background-color: #49e0ff;
-	/*padding: 5%;*/
-	/*margin: 20%;*/
-
+	background-color: #51d3ff;
 }
 
 .hbar {
-	position: absolute; /**can overlap**/
-	/*background: black;*/
-	/*box-sizing: content-box;*/
+	position: absolute;
 	box-sizing: border-box;;
 	width: 10%;
 	height: 10%;
 	top:0%;
 	left:0%;
-	background-color: #49e0ff;
-	/*padding: 5%;*/
-	/*margin: 20%;*/
+	background-color: #51d3ff;
 }
 
 .length10 {height: 100%;}
@@ -1014,7 +983,7 @@ div {
 
 
 
-/************ TITLE *********/
+/************ title letters *********/
 
 #m1Title1 {
 	top: 0%;
@@ -1229,22 +1198,3 @@ div {
 #hTitle {
 	margin-left: -1.25%;
 }
-
-/******** effects ********/
-/*
-.nightskyBody {
-	background-color: #141835;
-}
-
-.barsToStars  {
-	background-color: #1e365e;
-	width: 10% !important;
-	height: 10% !important;
-	transform: rotate(45deg);
-	background-color: white;
-}*/
-
-/*.twinkle {
-	transform: rotate(180deg) !important;
-	transform: scale(0.5) !important;
-}*/
