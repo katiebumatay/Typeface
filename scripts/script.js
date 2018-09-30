@@ -27,33 +27,6 @@ $(document).ready(function(){
 	}
 
 
-	// var nightTime = false;
-
-	//expand and contract bars
-	// $('#a').mouseover(function(){
-	// 		$(this).toggleClass("[class^='width']");
-	// 		var randomW = Math.floor(Math.random() * 150) + 10+ '%'; 
-	// 		var time = Math.floor(Math.random() * 300) + 500;
-	// 		$('#a1').animate({width: randomW,}, time).animate({width: "10%",}, time);
-	// 		var randomW2 = Math.floor(Math.random() * 150) + 10+ '%'; 
-	// 		var time2 = Math.floor(Math.random() * 300) + 500;
-	// 		$('#a2').animate({width: randomW2,}, time2).animate({width: "10%",}, time2);
-	// 		var randomW3 = Math.floor(Math.random() * 150) + 10+ '%'; 
-	// 		var time3 = Math.floor(Math.random() * 300) + 500;
-	// 		$('#a3').animate({width: randomW3,}, time3).animate({width: "10%",}, time3);
-	// 		var randomW4 = Math.floor(Math.random() * 150) + 10+ '%'; 
-	// 		var time4 = Math.floor(Math.random() * 300) + 500;
-	// 		$('#a4').animate({width: randomW4,}, time4).animate({width: "10%",}, time4);
-	// 		var randomW5 = Math.floor(Math.random() * 150) + 10+ '%'; 
-	// 		var time5 = Math.floor(Math.random() * 300) + 500;
-	// 		$('#a5').animate({width: randomW5,}, time5).animate({width: "10%",}, time5);
-	// 		$('#a6').randomAnimate();
-
-	// 	}
-	// });
-
-
-
 
 /***************** LETTER BAR ANIMATIONS **************/
 	$('#a').mouseenter(function(){
@@ -723,60 +696,6 @@ $(document).ready(function(){
 			$('#h3Title').hbarSet();
 	});
 
-	// //click to turn page into starry sky
-	// $('body').dblclick(function() {
-	// 	$('.vbar, .hbar').toggleClass("barsToStars");
-	// 	$('body').toggleClass('nightskyBody');
-	// 	// nightTime = true;
-	// });
-	// //end
-
-		// //make stars shoot away
-		// $('.letter .hbar').mouseover(function(){
-		// 	if ($('body').hasClass('nightskyBody')) {
-		// 		// $(this).animate({width: '150%',}, 200);
-		// 		var goLeft = Math.floor(Math.random() * 300) + 500; 
-		// 		var goUp = (Math.floor(Math.random() * 300) + 500) * (-1);
-		// 		var time1 = Math.floor(Math.random() * 300) + 200;
-		// 		$(this).animate({left: goLeft, top: goUp,}, time1).animate({opacity: 0,}, 300);
-		// 	}
-		// });
-
-		// $('.letter .vbar').mouseover(function(){
-		// 	if ($('body').hasClass('nightskyBody')) {
-		// 		var goRight = (Math.floor(Math.random() * 300) + 500) * (-1); 
-		// 		var goDown = (Math.floor(Math.random() * 300) + 500);
-		// 		var time2 = Math.floor(Math.random() * 300) + 200;
-		// 		$(this).animate({left: goRight, top: goDown,}, time2).animate({opacity: 0,}, 300);
-		// 	}
-		// });
-	//end -- shoots in night mode correctly, but has delay on toggle and on shooting
-
-		// $('#a').click(function(){
-		// 	if ($('body').hasClass('nightskyBody')) {
-		// 		$('#a .hbar, #a .vbar').toggleClass(".twinkle");
-		// 	}
-		// });
-
-
-	// $.fn.fade = function() {
-	// 	var fadeVal = Math.floor(Math.random()); 
-	// 	var time = Math.floor(Math.random() * 500) + 500;
-	// 	$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
-	// }
-
-	// 	$('#a').mouseenter(function(){
-	// 		if ($('body').hasClass('nightskyBody')) {
-	// 			$('#a1').fade();
-	// 			$('#a2').fade();
-	// 			$('#a3').fade();
-	// 			$('#a4').fade();
-	// 			$('#a5').fade();
-	// 			$('#a6').fade();
-	// 		}
-	// 	});
-
-
 
 	$('body').dblclick(function(){
 			$('#a1').vbarSet();
@@ -1176,23 +1095,18 @@ $(document).ready(function(){
 			$('#h3Title').hbarLoad();
 	});
 
-	// $(function(){
- //    	alert("Hover, click, and double click to explore!");
- //    	});
- 		$(".trigger").mouseenter(function(){
-    		alert("Hover, click, and double click to explore!");
-    	});
+ 		// $(".trigger").mouseenter(function(){
+   //  		alert("Hover, click, and double click to explore!");
+   //  	});
 
+  	$(".trigger").mouseenter(function(){
+    	$(".message").animate({opacity:"0.75",}, 300);
+    });
 
-	// $.fn.fade = function() {
-	// 	var fadeVal = Math.floor(Math.random()); 
-	// 	var time = Math.floor(Math.random() * 500) + 500;
-	// 	$(this).animate({opacity: fadeVal}, time).animate({opacity: 1,}, time);
-	// }
+    $(".trigger").mouseout(function(){
+    	$(".message").animate({opacity:"0",}, 300);
+    });
 
-	// 	$('.letter').mouseenter(function(){
-	// 		$(this).fade();
-	// 	});
 
 
 
