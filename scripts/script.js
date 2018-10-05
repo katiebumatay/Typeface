@@ -1095,16 +1095,21 @@ $(document).ready(function(){
 			$('#h3Title').hbarLoad();
 	});
 
- 		// $(".trigger").mouseenter(function(){
-   //  		alert("Hover, click, and double click to explore!");
-   //  	});
 
-  	$(".trigger").mouseenter(function(){
-    	$(".message").animate({opacity:"0.75",}, 300);
+  	// $(".trigger").mouseenter(function(){
+   //  	$(".message").animate({opacity:"0.75",}, 300);
+   //  });
+
+   //  $(".trigger").mouseout(function(){
+   //  	$(".message").animate({opacity:"0",}, 300);
+   //  });
+
+   $(".trigger").mouseover(function(){
+    	$(".message").toggleClass("messageShow");
     });
 
     $(".trigger").mouseout(function(){
-    	$(".message").animate({opacity:"0",}, 300);
+    	$(".message").toggleClass("messageShow");
     });
 
 
